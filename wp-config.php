@@ -37,13 +37,13 @@ define( 'WPCACHEHOME', '/home3/buckeye/public_html/dev/wp-content/plugins/wp-sup
 define('DB_NAME', 'buckeye_wrdp1');
 
 /** MySQL database username */
-define('DB_USER', 'trudoor');
+define('DB_USER', $_ENV['DB_USER']);
 
 /** MySQL database password */
-define('DB_PASSWORD', 'vnfJkjkYo7iWdrWBFNYFmgev');
+define('DB_PASSWORD', $_ENV['DB_PASS']);
 
 /** MySQL hostname */
-define('DB_HOST', 'database-trudoor-wp-wigum.cluster-cuv2hywkmsz3.us-west-2.rds.amazonaws.com');
+define('DB_HOST', $_ENV['DB_HOST']);
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
