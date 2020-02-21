@@ -2,19 +2,6 @@
 /** Enable W3 Total Cache */
 define('WP_CACHE', true); // Added by W3 Total Cache
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /**
 * The base configurations of the WordPress.
 *
@@ -37,13 +24,13 @@ define( 'WPCACHEHOME', '/home3/buckeye/public_html/dev/wp-content/plugins/wp-sup
 define('DB_NAME', 'buckeye_wrdp1');
 
 /** MySQL database username */
-define('DB_USER', $_ENV['DB_USER']);
+define('DB_USER', getenv('DB_USER'));
 
 /** MySQL database password */
-define('DB_PASSWORD', $_ENV['DB_PASS']);
+define('DB_PASSWORD', getenv('DB_PASS'));
 
 /** MySQL hostname */
-define('DB_HOST', $_ENV['DB_HOST']);
+define('DB_HOST', getenv('DB_HOST'));
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
