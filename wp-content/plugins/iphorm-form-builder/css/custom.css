@@ -1,0 +1,2298 @@
+/*ESTIMATE REQUEST 2015*/
+
+.iphorm-inner .iphorm_12_48-input-li label {
+    position: relative;
+    padding: 175px 10px 10px 10px;
+    min-width: 159px;
+    border: none;
+    box-shadow: none;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out!important;
+}
+.iphorm_12_48-input-li {
+    padding-right: 5px!important;
+}
+.iphorm_12_48-input-li label:hover {
+    border: none;
+    background-color: #fff;
+}
+/*Metal Door*/
+
+.iphorm-inner label.iphorm_12_48_1_label {
+    background: url(/images/hollow-metal-door.png) no-repeat center 15px;
+}
+/*Wood Door*/
+
+.iphorm-inner label.iphorm_12_48_2_label {
+    background: url(/images/wood-est.png) no-repeat center 15px;
+}
+/*Hardware*/
+
+.iphorm-inner label.iphorm_12_48_3_label {
+    background: url(/images/hardware.png) no-repeat center 15px;
+}
+/*Frames*/
+
+.iphorm-inner label.iphorm_12_48_4_label {
+    background: url(/images/frame.png) no-repeat center 15px;
+}
+/*QUOTE BUILDER*/
+
+.qf {
+    text-align: center;
+    margin: 0 auto;
+    clear: both;
+    ;
+    width: 100%;
+}
+.iphorm-form-27 .iphorm_27_227-group-wrap .iphorm-group-row {
+    display: inline-flex!important;
+}
+.iphorm-form-27 .iphorm_27_1-group-wrap .iphorm-group-row {
+    display: inline-flex!important;
+}
+.iphorm-form-27 .iphorm-labels-above > .iphorm-element-spacer > label {
+    border-top: 2px solid #f2f2f2;
+    padding: 18px 0px 8px 0px;
+    min-width: 80%;
+}
+.iphorm-form-27 .iphorm-labels-above > .iphorm_27_5-element-spacer > label,
+.iphorm-form-27 .iphorm-labels-above > .iphorm_27_48-element-spacer > label,
+.iphorm-form-27 .iphorm-labels-above > .iphorm_27_51-element-spacer > label,
+.iphorm-form-27 .iphorm-labels-above > .iphorm_27_52-element-spacer > label,
+.iphorm-form-27 .iphorm-labels-above > .iphorm_27_53-element-spacer > label,
+.iphorm-form-27 .iphorm-labels-above > .iphorm_27_59-element-spacer > label,
+.iphorm-form-27 .iphorm-labels-above > .iphorm_27_60-element-spacer > label,
+.iphorm-form-27 .iphorm-labels-above > .iphorm_27_61-element-spacer > label,
+.iphorm-form-27 .iphorm-labels-above > .iphorm_27_62-element-spacer > label,
+.iphorm-form-27 .iphorm-labels-above > .iphorm_27_68-element-spacer > label,
+.iphorm-form-27 .iphorm-labels-above > .iphorm_27_69-element-spacer > label,
+.iphorm-form-27 .iphorm-labels-above > .iphorm_27_70-element-spacer > label,
+.iphorm-form-27 .iphorm-labels-above > .iphorm_27_71-element-spacer > label,
+.iphorm-form-27 .iphorm-labels-above > .iphorm_27_72-element-spacer > label,
+.iphorm-form-27 .iphorm-labels-above > .iphorm_27_174-element-spacer > label,
+.iphorm-form-27 .iphorm-labels-above > .iphorm_27_177-element-spacer > label,
+.iphorm-form-27 .iphorm-labels-above > .iphorm_27_180-element-spacer > label,
+.iphorm-form-27 .iphorm-labels-above > .iphorm_27_181-element-spacer > label,
+.iphorm-form-27 .iphorm-labels-above > .iphorm_27_182-element-spacer > label,
+.iphorm-form-27 .iphorm-labels-above > .iphorm_27_187-element-spacer > label,
+.iphorm-form-27 .iphorm-labels-above > .iphorm_27_190-element-spacer > label,
+.iphorm-form-27 .iphorm-labels-above > .iphorm_27_191-element-spacer > label,
+.iphorm-form-27 .iphorm-labels-above > .iphorm_27_198-element-spacer > label,
+.iphorm-form-27 .iphorm-labels-above > .iphorm_27_203-element-spacer > label,
+.iphorm-form-27 .iphorm-labels-above > .iphorm_27_248-element-spacer > label,
+.iphorm-form-23 .iphorm-labels-above > .iphorm_23_1-element-spacer > label,
+.iphorm-form-23 .iphorm-labels-above > .iphorm_23_2-element-spacer > label,
+.iphorm-form-23 .iphorm-labels-above > .iphorm_23_17-element-spacer > label,
+.iphorm-form-23 .iphorm-labels-above > .iphorm_23_20-element-spacer > label,
+.iphorm-form-23 .iphorm-labels-above > .iphorm_23_3-element-spacer > label,
+.iphorm-form-23 .iphorm-labels-above > .iphorm_23_12-element-spacer > label {
+    padding: 0px;
+    min-width: 100%;
+    border-top: none!important;
+}
+.iphorm-group-wrap .iphorm_27_49-group-wrap .iphorm-group-title-description-wrap,
+.iphorm-group-wrap .iphorm_27_57-group-wrap .iphorm-group-title-description-wrap,
+.iphorm-group-wrap .iphorm_27_66-group-wrap .iphorm-group-title-description-wrap {
+    margin-bottom: 0!important;
+}
+.iphorm-inner .iphorm_27_5-input-li div.radio,
+.iphorm-inner .iphorm_27_5-input-li div.checker,
+.iphorm-inner .iphorm_27_5-input-li input,
+.iphorm-inner .iphorm_27_7-input-li div.radio,
+.iphorm-inner .iphorm_27_7-input-li div.checker,
+.iphorm-inner .iphorm_27_7-input-li input,
+.iphorm-inner .iphorm_27_14-input-li div.radio,
+.iphorm-inner .iphorm_27_14-input-li div.checker,
+.iphorm-inner .iphorm_27_14-input-li input,
+.iphorm-inner .iphorm_27_17-input-li div.radio,
+.iphorm-inner .iphorm_27_17-input-li div.checker,
+.iphorm-inner .iphorm_27_17-input-li input,
+.iphorm-inner .iphorm_27_20-input-li div.radio,
+.iphorm-inner .iphorm_27_20-input-li div.checker,
+.iphorm-inner .iphorm_27_20-input-li input,
+.iphorm-inner .iphorm_27_23-input-li div.radio,
+.iphorm-inner .iphorm_27_23-input-li div.checker,
+.iphorm-inner .iphorm_27_23-input-li input,
+.iphorm-inner .iphorm_27_26-input-li div.radio,
+.iphorm-inner .iphorm_27_26-input-li div.checker,
+.iphorm-inner .iphorm_27_26-input-li input,
+.iphorm-inner .iphorm_27_30-input-li div.radio,
+.iphorm-inner .iphorm_27_30-input-li div.checker,
+.iphorm-inner .iphorm_27_30-input-li input,
+.iphorm-inner .iphorm_27_33-input-li div.radio,
+.iphorm-inner .iphorm_27_33-input-li div.checker,
+.iphorm-inner .iphorm_27_33-input-li input,
+.iphorm-inner .iphorm_27_36-input-li div.radio,
+.iphorm-inner .iphorm_27_36-input-li div.checker,
+.iphorm-inner .iphorm_27_36-input-li input,
+.iphorm-inner .iphorm_27_39-input-li div.radio,
+.iphorm-inner .iphorm_27_39-input-li div.checker,
+.iphorm-inner .iphorm_27_39-input-li input,
+
+.iphorm-inner .iphorm_27_354-input-li div.radio,
+.iphorm-inner .iphorm_27_354-input-li div.checker,
+.iphorm-inner .iphorm_27_354-input-li input,
+
+
+
+
+.iphorm-inner .iphorm_27_383-input-li div.radio,
+.iphorm-inner .iphorm_27_383-input-li div.checker,
+.iphorm-inner .iphorm_27_383-input-li input,
+
+.iphorm-inner .iphorm_27_44-input-li div.radio,
+.iphorm-inner .iphorm_27_44-input-li div.checker,
+.iphorm-inner .iphorm_27_44-input-li input,
+.iphorm-inner .iphorm_27_329-input-li div.radio,
+.iphorm-inner .iphorm_27_329-input-li div.checker,
+.iphorm-inner .iphorm_27_329-input-li input,
+.iphorm-inner .iphorm_27_47-input-li div.radio,
+.iphorm-inner .iphorm_27_47-input-li div.checker,
+.iphorm-inner .iphorm_27_47-input-li input,
+.iphorm-inner .iphorm_27_56-input-li div.radio,
+.iphorm-inner .iphorm_27_56-input-li div.checker,
+.iphorm-inner .iphorm_27_56-input-li input,
+.iphorm-inner .iphorm_27_65-input-li div.radio,
+.iphorm-inner .iphorm_27_65-input-li div.checker,
+.iphorm-inner .iphorm_27_65-input-li input,
+.iphorm-inner .iphorm_27_75-input-li div.radio,
+.iphorm-inner .iphorm_27_75-input-li div.checker,
+.iphorm-inner .iphorm_27_75-input-li input,
+.iphorm-inner .iphorm_27_86-input-li div.radio,
+.iphorm-inner .iphorm_27_86-input-li div.checker,
+.iphorm-inner .iphorm_27_89-input-li input,
+.iphorm-inner .iphorm_27_89-input-li div.radio,
+.iphorm-inner .iphorm_27_86-input-li div.checker,
+.iphorm-inner .iphorm_27_89-input-li input,
+.iphorm-inner .iphorm_27_89-input-li input,
+.iphorm-inner .iphorm_27_92-input-li div.radio,
+.iphorm-inner .iphorm_27_92-input-li div.checker,
+.iphorm-inner .iphorm_27_92-input-li input,
+.iphorm-inner .iphorm_27_107-input-li div.radio,
+.iphorm-inner .iphorm_27_107-input-li div.checker,
+.iphorm-inner .iphorm_27_107-input-li input,
+
+
+.iphorm-inner .iphorm_27_336-input-li div.radio,
+.iphorm-inner .iphorm_27_336-input-li div.checker,
+.iphorm-inner .iphorm_27_336-input-li input,
+
+.iphorm-inner .iphorm_27_376-input-li div.radio,
+.iphorm-inner .iphorm_27_376-input-li div.checker,
+.iphorm-inner .iphorm_27_376-input-li input,
+
+.iphorm-inner .iphorm_27_339-input-li div.radio,
+.iphorm-inner .iphorm_27_339-input-li div.checker,
+.iphorm-inner .iphorm_27_339-input-li input,
+
+
+.iphorm-inner .iphorm_27_342-input-li div.radio,
+.iphorm-inner .iphorm_27_342-input-li div.checker,
+.iphorm-inner .iphorm_27_342-input-li input,
+
+.iphorm-inner .iphorm_27_345-input-li div.radio,
+.iphorm-inner .iphorm_27_345-input-li div.checker,
+.iphorm-inner .iphorm_27_345-input-li input,
+
+
+.iphorm-inner .iphorm_27_348-input-li div.radio,
+.iphorm-inner .iphorm_27_348-input-li div.checker,
+.iphorm-inner .iphorm_27_348-input-li input,
+
+
+.iphorm-inner .iphorm_27_110-input-li div.radio,
+.iphorm-inner .iphorm_27_110-input-li div.checker,
+.iphorm-inner .iphorm_27_110-input-li input,
+.iphorm-inner .iphorm_27_113-input-li div.radio,
+.iphorm-inner .iphorm_27_113-input-li div.checker,
+.iphorm-inner .iphorm_27_113-input-li input,
+.iphorm-inner .iphorm_27_120-input-li div.radio,
+.iphorm-inner .iphorm_27_120-input-li div.checker,
+.iphorm-inner .iphorm_27_120-input-li input,
+.iphorm-inner .iphorm_27_123-input-li div.radio,
+.iphorm-inner .iphorm_27_123-input-li div.checker,
+.iphorm-inner .iphorm_27_123-input-li input,
+.iphorm-inner .iphorm_27_124-input-li div.radio,
+.iphorm-inner .iphorm_27_124-input-li div.checker,
+.iphorm-inner .iphorm_27_124-input-li input,
+.iphorm-inner .iphorm_27_130-input-li div.radio,
+.iphorm-inner .iphorm_27_130-input-li div.checker,
+.iphorm-inner .iphorm_27_130-input-li input,
+.iphorm-inner .iphorm_27_131-input-li div.radio,
+.iphorm-inner .iphorm_27_131-input-li div.checker,
+.iphorm-inner .iphorm_27_131-input-li input,
+.iphorm-inner .iphorm_27_136-input-li div.radio,
+.iphorm-inner .iphorm_27_136-input-li div.checker,
+.iphorm-inner .iphorm_27_136-input-li input,
+.iphorm-inner .iphorm_27_140-input-li div.radio,
+.iphorm-inner .iphorm_27_140-input-li div.checker,
+.iphorm-inner .iphorm_27_140-input-li input,
+
+.iphorm-inner .iphorm_27_357-input-li div.radio,
+.iphorm-inner .iphorm_27_357-input-li div.checker,
+.iphorm-inner .iphorm_27_357-input-li input,
+
+.iphorm-inner .iphorm_27_360-input-li div.radio,
+.iphorm-inner .iphorm_27_360-input-li div.checker,
+.iphorm-inner .iphorm_27_360-input-li input,
+
+.iphorm-inner .iphorm_27_143-input-li div.radio,
+.iphorm-inner .iphorm_27_143-input-li div.checker,
+.iphorm-inner .iphorm_27_143-input-li input,
+.iphorm-inner .iphorm_27_149-input-li div.radio,
+.iphorm-inner .iphorm_27_149-input-li div.checker,
+.iphorm-inner .iphorm_27_149-input-li input,
+.iphorm-inner .iphorm_27_152-input-li div.radio,
+.iphorm-inner .iphorm_27_152-input-li div.checker,
+.iphorm-inner .iphorm_27_152-input-li input,
+.iphorm-inner .iphorm_27_158-input-li div.radio,
+.iphorm-inner .iphorm_27_158-input-li div.checker,
+.iphorm-inner .iphorm_27_158-input-li input,
+.iphorm-inner .iphorm_27_161-input-li div.radio,
+.iphorm-inner .iphorm_27_161-input-li div.checker,
+.iphorm-inner .iphorm_27_161-input-li input,
+.iphorm-inner .iphorm_27_166-input-li div.radio,
+.iphorm-inner .iphorm_27_166-input-li div.checker,
+.iphorm-inner .iphorm_27_166-input-li input,
+.iphorm-inner .iphorm_27_169-input-li div.radio,
+.iphorm-inner .iphorm_27_169-input-li div.checker,
+.iphorm-inner .iphorm_27_169-input-li input,
+.iphorm-inner .iphorm_27_251-input-li div.radio,
+.iphorm-inner .iphorm_27_251-input-li div.checker,
+.iphorm-inner .iphorm_27_251-input-li input,
+.iphorm-inner .iphorm_27_254-input-li div.radio,
+.iphorm-inner .iphorm_27_254-input-li div.checker,
+.iphorm-inner .iphorm_27_254-input-li input,
+
+.iphorm-inner .iphorm_27_396-input-li div.radio,
+.iphorm-inner .iphorm_27_396-input-li div.checker,
+.iphorm-inner .iphorm_27_396-input-li input,
+
+.iphorm-inner .iphorm_27_260-input-li div.radio,
+.iphorm-inner .iphorm_27_260-input-li div.checker,
+.iphorm-inner .iphorm_27_260-input-li input,
+.iphorm-inner .iphorm_23_1-input-li div.radio,
+.iphorm-inner .iphorm_23_1-input-li div.checker,
+.iphorm-inner .iphorm_23_1-input-li input,
+.iphorm-inner .iphorm_23_2-input-li div.radio,
+.iphorm-inner .iphorm_23_2-input-li div.checker,
+.iphorm-inner .iphorm_23_2-input-li input,
+.iphorm-inner .iphorm_23_3-input-li div.radio,
+.iphorm-inner .iphorm_23_3-input-li div.checker,
+.iphorm-inner .iphorm_23_3-input-li input,
+.iphorm-inner .iphorm_23_12-input-li div.radio,
+.iphorm-inner .iphorm_27_319-input-li div.radio,
+.iphorm-inner .iphorm_23_12-input-li div.checker,
+.iphorm-inner .iphorm_23_12-input-li input,
+.iphorm-inner .iphorm_23_17-input-li div.radio,
+.iphorm-inner .iphorm_23_17-input-li div.checker,
+.iphorm-inner .iphorm_23_17-input-li input,
+.iphorm-inner .iphorm_23_20-input-li div.radio,
+.iphorm-inner .iphorm_23_20-input-li div.checker,
+.iphorm-inner .iphorm_23_20-input-li input,
+.iphorm-inner .iphorm_27_268-input-li div.radio,
+.iphorm-inner .iphorm_27_268-input-li div.checker,
+.iphorm-inner .iphorm_27_268-input-li input,
+.iphorm-inner .iphorm_27_269-input-li div.radio,
+.iphorm-inner .iphorm_27_269-input-li div.checker,
+.iphorm-inner .iphorm_27_269-input-li input,
+.iphorm-inner .iphorm_27_270-input-li div.radio,
+.iphorm-inner .iphorm_27_270-input-li div.checker,
+.iphorm-inner .iphorm_27_270-input-li input,
+.iphorm-inner .iphorm_27_304-input-li div.radio,
+.iphorm-inner .iphorm_27_304-input-li div.checker,
+.iphorm-inner .iphorm_27_304-input-li input,
+.iphorm-inner .iphorm_27_312-input-li div.radio,
+.iphorm-inner .iphorm_27_312-input-li div.checker,
+.iphorm-inner .iphorm_27_312-input-li input,
+.iphorm-inner .iphorm_27_322-input-li div.radio,
+.iphorm-inner .iphorm_27_322-input-li div.checker,
+.iphorm-inner .iphorm_27_322-input-li input,
+.iphorm-inner .iphorm_27_399-input-li div.radio,
+.iphorm-inner .iphorm_27_399-input-li div.checker,
+.iphorm-inner .iphorm_27_399-input-li input,
+.iphorm-inner .iphorm_27_402-input-li div.radio,
+.iphorm-inner .iphorm_27_402-input-li div.checker,
+.iphorm-inner .iphorm_27_402-input-li input
+
+ {
+    display: none;
+}
+.iphorm-inner .iphorm_27_223-input-li label {
+    position: relative;
+    padding: 165px 10px 10px 10px;
+    min-width: 249px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.iphorm-inner .iphorm_27_5-input-li label {
+       position: relative;
+        padding: 197px 0px 13px 0px;
+    min-width: 233px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+background-size: 180px 170px !important;
+}
+.iphorm-inner .iphorm_27_234-input-li label {
+    position: relative;
+    padding: 155px 10px 10px 10px;
+    min-width: 249px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.iphorm-inner .iphorm_27_7-input-li label,
+.iphorm-inner .iphorm_27_14-input-li label,
+.iphorm-inner .iphorm_27_136-input-li label,
+.iphorm-inner .iphorm_27_284-input-li label,
+.iphorm-inner .iphorm_27_291-input-li label,
+.iphorm-inner .iphorm_27_297-input-li label,
+.iphorm-inner .iphorm_27_329-input-li label,
+.iphorm-inner .iphorm_27_44-input-li label,
+.iphorm-inner .iphorm_27_143-input-li label {
+    position: relative;
+    padding: 155px 10px 10px 10px;
+    min-width: 249px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.iphorm-inner .iphorm_27_17-input-li label,
+.iphorm-inner .iphorm_27_270-input-li label,
+.iphorm-inner .iphorm_27_294-input-li label,
+.iphorm-inner .iphorm_27_304-input-li label {
+    position: relative;
+    padding: 155px 10px 10px 10px;
+    min-width: 345px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.iphorm-inner .iphorm_27_20-input-li label,
+.iphorm-inner .iphorm_27_23-input-li label,
+.iphorm-inner .iphorm_27_26-input-li label,
+.iphorm-inner .iphorm_27_30-input-li label,
+.iphorm-inner .iphorm_27_130-input-li label,
+.iphorm-inner .iphorm_27_269-input-li label,
+.iphorm-inner .iphorm_27_279-input-li label {
+    position: relative;
+    padding: 155px 10px 10px 10px;
+    min-width: 191px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.iphorm-inner .iphorm_27_39-input-li label, .iphorm-inner .iphorm_27_354-input-li label {
+  position: relative;
+    padding: 180px 10px 10px 10px;
+    min-width: 191px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.iphorm-inner .iphorm_27_383-input-li label {
+  position: relative;
+   padding: 59px 10px 10px 10px;
+    min-width: 209px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+
+
+
+.iphorm-inner .iphorm_27_33-input-li label {
+    position: relative;
+    padding: 10px;
+    min-width: 193px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.iphorm-inner .iphorm_27_251-input-li label,
+.iphorm-inner .iphorm_27_260-input-li label,
+.iphorm-inner .iphorm_27_300-input-li label {
+    position: relative;
+    padding: 10px;
+    min-width: 251px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.iphorm-inner .iphorm_27_254-input-li label,  .iphorm-inner .iphorm_27_396-input-li label{
+    position: relative;
+    padding: 10px;
+    min-width: 251px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.iphorm-inner .iphorm_27_36-input-li label,
+.iphorm-inner .iphorm_27_123-input-li label,
+.iphorm-inner .iphorm_27_131-input-li label {
+    position: relative;
+    padding: 10px;
+    min-width: 230px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+
+/*.iphorm-inner .iphorm_27_360-input-li label {
+    position: relative;
+    padding: 10px;
+    min-width: 251px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}*/
+.iphorm-inner .iphorm_27_47-input-li label,
+.iphorm-inner .iphorm_27_65-input-li label {
+    position: relative;
+    padding: 250px 10px 10px 10px;
+    min-width: 189px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.iphorm-inner .iphorm_27_56-input-li label {
+    position: relative;
+    padding: 250px 10px 10px 10px;
+    min-width: 154px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.iphorm-inner .iphorm_27_75-input-li label,
+.iphorm-inner .iphorm_27_140-input-li label,
+.iphorm-inner .iphorm_27_330-input-li label,
+.iphorm-inner .iphorm_27_357-input-li label {
+    position: relative;
+    padding: 10px;
+    min-width: 251px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.iphorm-inner .iphorm_27_333-input-li label,
+ .iphorm-inner .iphorm_27_364-input-li label {
+    position: relative;
+    padding: 10px;
+    min-width: 281px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.iphorm-inner .iphorm_27_89-input-li label,
+.iphorm-inner .iphorm_27_152-input-li label {
+    position: relative;
+    padding: 10px;
+    min-width: 154px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.iphorm-inner .iphorm_27_92-input-li label,
+.iphorm-inner .iphorm_27_149-input-li label {
+    position: relative;
+    padding: 155px 10px 10px 10px;
+    min-width: 189px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.iphorm-inner .iphorm_27_110-input-li label,
+.iphorm-inner .iphorm_27_377-input-li label{
+ position: relative;
+    padding: 138px 20px 22px 20px;
+    min-width: 228px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.iphorm-inner .iphorm_27_107-input-li label,
+.iphorm-inner .iphorm_27_124-input-li label,
+.iphorm-inner .iphorm_27_158-input-li label,
+.iphorm-inner .iphorm_27_161-input-li label,
+.iphorm-inner .iphorm_27_336-input-li label,
+.iphorm-inner .iphorm_27_376-input-li label,
+.iphorm-inner .iphorm_27_339-input-li label,
+.iphorm-inner .iphorm_27_342-input-li label,
+.iphorm-inner .iphorm_27_345-input-li label,
+.iphorm-inner .iphorm_27_348-input-li label,
+ .iphorm-inner .iphorm_27_380-input-li label{
+    position: relative;
+    padding: 120px 10px 10px 10px;
+    min-width: 189px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.iphorm-inner .iphorm_27_113-input-li label,
+.iphorm-inner .iphorm_27_169-input-li label {
+   position: relative;
+    padding: 90px 10px 10px 10px;
+    min-width: 247px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.iphorm-inner .iphorm_27_120-input-li label,
+.iphorm-inner .iphorm_27_166-input-li label {
+    position: relative;
+    padding: 115px 10px 10px 10px;
+    min-width: 189px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+/*Add styles hovering all labels*/
+
+.iphorm-inner .iphorm_27_5-input-li label:hover,
+.iphorm-inner .iphorm_27_7-input-li label:hover,
+.iphorm-inner .iphorm_27_14-input-li label:hover,
+.iphorm-inner .iphorm_27_17-input-li label:hover,
+.iphorm-inner .iphorm_27_20-input-li label:hover,
+.iphorm-inner .iphorm_27_23-input-li label:hover,
+.iphorm-inner .iphorm_27_26-input-li label:hover,
+.iphorm-inner .iphorm_27_30-input-li label:hover,
+.iphorm-inner .iphorm_27_33-input-li label:hover,
+.iphorm-inner .iphorm_27_36-input-li label:hover,
+.iphorm-inner .iphorm_27_39-input-li label:hover,
+.iphorm-inner .iphorm_27_354-input-li label:hover,
+.iphorm-inner .iphorm_27_383-input-li label:hover,
+.iphorm-inner .iphorm_27_44-input-li label:hover,
+.iphorm-inner .iphorm_27_329-input-li label:hover,
+.iphorm-inner .iphorm_27_360-input-li label:hover,
+.iphorm-inner .iphorm_27_47-input-li label:hover,
+.iphorm-inner .iphorm_27_56-input-li label:hover,
+.iphorm-inner .iphorm_27_65-input-li label:hover,
+.iphorm-inner .iphorm_27_75-input-li label:hover,
+.iphorm-inner .iphorm_27_330-input-li label:hover,
+.iphorm-inner .iphorm_27_333-input-li label:hover,
+.iphorm-inner .iphorm_27_364-input-li label:hover,
+.iphorm-inner .iphorm_27_89-input-li label:hover,
+.iphorm-inner .iphorm_27_92-input-li label:hover,
+.iphorm-inner .iphorm_27_377-input-li label:hover,
+.iphorm-inner .iphorm_27_336-input-li label:hover,
+.iphorm-inner .iphorm_27_339-input-li label:hover,
+.iphorm-inner .iphorm_27_342-input-li label:hover,
+.iphorm-inner .iphorm_27_380-input-li label:hover,
+.iphorm-inner .iphorm_27_345-input-li label:hover,
+.iphorm-inner .iphorm_27_348-input-li label:hover,
+.iphorm-inner .iphorm_27_376-input-li label:hover,
+.iphorm-inner .iphorm_27_402-input-li label:hover,
+.iphorm-inner .iphorm_27_399-input-li label:hover,
+.iphorm-inner .iphorm_27_110-input-li label:hover,
+.iphorm-inner .iphorm_27_113-input-li label:hover,
+.iphorm-inner .iphorm_27_120-input-li label:hover,
+.iphorm-inner .iphorm_27_123-input-li label:hover,
+.iphorm-inner .iphorm_27_124-input-li label:hover,
+.iphorm-inner .iphorm_27_130-input-li label:hover,
+.iphorm-inner .iphorm_27_131-input-li label:hover,
+.iphorm-inner .iphorm_27_140-input-li label:hover,
+.iphorm-inner .iphorm_27_357-input-li label:hover,
+.iphorm_27_143-input-li label:hover,
+.iphorm_27_149-input-li label:hover,
+.iphorm_27_152-input-li label:hover,
+.iphorm_27_158-input-li label:hover,
+.iphorm_27_161-input-li label:hover,
+.iphorm_27_166-input-li label:hover,
+.iphorm_27_169-input-li label:hover,
+.iphorm_27_211-input-li label:hover,
+.iphorm_27_251-input-li label:hover,
+.iphorm_27_254-input-li label:hover,
+.iphorm_27_396-input-li label:hover,
+.iphorm_27_260-input-li label:hover,
+.iphorm-inner .iphorm_23_1-input-li label:hover,
+.iphorm-inner .iphorm_23_2-input-li label:hover,
+.iphorm-inner .iphorm_27_312-input-li label:hover,
+.iphorm-inner .iphorm_27_322-input-li label:hover,
+.iphorm-inner .iphorm_23_3-input-li label:hover,
+.iphorm-inner .iphorm_23_12-input-li label:hover,
+.iphorm-inner .iphorm_27_319-input-li label:hover,
+.iphorm-inner .iphorm_23_17-input-li label:hover,
+.iphorm-inner .iphorm_23_20-input-li label:hover,
+.iphorm-inner .iphorm_27_326-input-li label:hover,
+.iphorm-inner .iphorm_27_309-input-li label:hover,
+.iphorm-inner .iphorm_27_316-input-li label:hover {
+    border: 3px solid #C56228;
+    background-color: #fafafa;
+}
+/*Add styles active all labels*/
+
+.iphorm-inner .iphorm_27_136-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_7-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_14-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_17-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_20-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_23-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_26-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_30-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_33-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_36-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_39-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_354-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_383-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_44-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_329-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_360-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_47-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_56-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_65-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_75-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_330-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_333-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_364-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_89-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_92-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_107-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_377-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_336-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_339-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_342-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_345-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_348-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_376-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_380-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_110-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_113-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_120-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_123-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_124-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_130-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_131-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_140-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_357-input-li label.iphorm-checked,
+.iphorm_27_143-input-li label.iphorm-checked,
+.iphorm_27_149-input-li label.iphorm-checked,
+.iphorm_27_152-input-li label.iphorm-checked,
+.iphorm_27_158-input-li label.iphorm-checked,
+.iphorm_27_161-input-li label.iphorm-checked,
+.iphorm_27_166-input-li label.iphorm-checked,
+.iphorm_27_169-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_23_1-input-li label.iphorm-checked,
+.iphorm_27_251-input-li label.iphorm-checked,
+.iphorm_27_254-input-li label.iphorm-checked,
+.iphorm_27_396-input-li label.iphorm-checked,
+.iphorm_27_260-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_23_2-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_322-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_312-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_23_3-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_316-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_23_12-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_319-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_23_17-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_23_20-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_326-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_268-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_269-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_279-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_284-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_285-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_288-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_291-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_294-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_297-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_300-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_304-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_309-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_402-input-li label.iphorm-checked,
+.iphorm-inner .iphorm_27_399-input-li label.iphorm-checked {
+    border: 3px solid #333333;
+    background-color: #fafafa!important;
+}
+/*For SECOND*/
+
+.iphorm-inner label.iphorm_27_223_1_label {
+    background: #fff url(/images/form01.png) no-repeat center 8px;
+}
+/*................................*/
+/*SELECT A PRODUCT*/
+/*Metal Door*/
+
+.iphorm-inner label.iphorm_27_5_1_label {
+    background: #fff url(/images/metal-door.png) no-repeat center 8px;
+}
+/*Wood Door*/
+
+.iphorm-inner label.iphorm_27_5_2_label {
+    background: #fff url(/images/wood-door.png) no-repeat center 8px;
+}
+.iphorm-inner label.iphorm_27_223_2_label {
+    background: #fff url(/images/form02.png) no-repeat center 8px;
+}
+/*Metal Frame Only*/
+
+.iphorm-inner label.iphorm_27_223_3_label {
+    background: url(/images/fr.png) no-repeat center 15px;
+}
+.iphorm-inner label.iphorm_27_5_3_label {
+    background: url(/images/metal-building-door.png) no-repeat center 8px;
+}
+/*Hardware Only*/
+
+.iphorm-inner label.iphorm_27_223_4_label {
+    background: #fff url(/images/hardware.png) no-repeat center 8px;
+}
+.iphorm-inner label.iphorm_27_5_4_label {
+	background: #fff url(/images/frame-only.png) no-repeat center 8px;
+} 
+.iphorm-inner label.iphorm_27_5_5_label {
+    background: #fff url(/images/lites-louvers.png) no-repeat center 8px;
+}
+.iphorm-inner label.iphorm_27_5_6_label {
+    background: #fff url(/images/hardware-only.png) no-repeat center 8px;
+}
+/*SINGLE OR DOUBLE DOOR*/
+/*Single*/
+
+.iphorm-inner label.iphorm_27_234_1_label {
+    background: #fff url(/images/single-metal.png) no-repeat center 15px;
+}
+.iphorm-inner label.iphorm_27_7_1_label {
+    background: #fff url(/images/single-metal.png) no-repeat center 15px;
+}
+/*Double*/
+
+.iphorm-inner label.iphorm_27_234_2_label {
+    background: #fff url(/images/double-metal.png) no-repeat center 15px;
+}
+.iphorm-inner label.iphorm_27_7_2_label {
+    background: #fff url(/images/double-metal.png) no-repeat center 15px;
+}
+/*DOOR HAND - SINGLE*/
+/*LH*/
+
+.iphorm-inner label.iphorm_27_14_1_label,
+.iphorm-inner label.iphorm_27_269_1_label {
+    background: #fff url(/images/lh.png) no-repeat center;
+}
+/*RH*/
+
+.iphorm-inner label.iphorm_27_14_2_label,
+.iphorm-inner label.iphorm_27_269_2_label {
+    background: #fff url(/images/rh.png) no-repeat center;
+}
+/*LHR*/
+
+.iphorm-inner label.iphorm_27_14_3_label,
+.iphorm-inner label.iphorm_27_269_3_label {
+    background: #fff url(/images/lhr.png) no-repeat center;
+}
+/*RHR*/
+
+.iphorm-inner label.iphorm_27_14_4_label,
+.iphorm-inner label.iphorm_27_269_4_label {
+    background: #fff url(/images/rhr.png) no-repeat center;
+}
+/*WHICH IS ACTIVE - DOUBLE*/
+/*LHA*/
+
+.iphorm-inner label.iphorm_27_17_1_label,
+.iphorm-inner label.iphorm_27_270_1_label {
+    background: #fff url(/images/lha.png) no-repeat center;
+}
+/*RHA*/
+
+.iphorm-inner label.iphorm_27_17_2_label,
+.iphorm-inner label.iphorm_27_270_2_label {
+    background: #fff url(/images/rha.png) no-repeat center;
+}
+/*LHRA*/
+
+.iphorm-inner label.iphorm_27_17_3_label,
+.iphorm-inner label.iphorm_27_270_3_label {
+    background: #fff url(/images/lhra.png) no-repeat center;
+}
+/*RHRA*/
+
+.iphorm-inner label.iphorm_27_17_4_label,
+.iphorm-inner label.iphorm_27_270_4_label {
+    background: #fff url(/images/rhra.png) no-repeat center;
+}
+/*Both - Vertical Rod*/
+
+.iphorm-inner label.iphorm_27_17_5_label,
+.iphorm-inner label.iphorm_27_270_5_label {
+    background: #fff url(/images/vert.jpg) no-repeat center;
+}
+/*Both - Mullion*/
+
+.iphorm-inner label.iphorm_27_17_6_label,
+.iphorm-inner label.iphorm_27_270_6_label {
+    background: #fff url(/images/mull.jpg) no-repeat center;
+}
+/*FIRE RATED*/
+/*None*/
+
+.iphorm-inner label.iphorm_27_20_1_label {
+    background: #fff url(/images/single-metal.png) no-repeat center 15px;
+}
+/*20 Min*/
+
+.iphorm-inner label.iphorm_27_20_2_label {
+    background: #fff url(/images/f.png) no-repeat center 15px;
+}
+/*45 Min*/
+
+.iphorm-inner label.iphorm_27_20_3_label {
+    background: #fff url(/images/f.png) no-repeat center 15px;
+}
+/*90 Min*/
+
+.iphorm-inner label.iphorm_27_20_4_label {
+    background: #fff url(/images/f.png) no-repeat center 15px;
+}
+/*3 Hour*/
+
+.iphorm-inner label.iphorm_27_20_5_label {
+    background: #fff url(/images/f.png) no-repeat center 15px;
+}
+/*EMBOSSED*/
+/*None*/
+
+.iphorm-inner label.iphorm_27_23_1_label {
+    background: #fff url(/images/single-metal.png) no-repeat center 15px;
+}
+/*6 Panel*/
+
+.iphorm-inner label.iphorm_27_23_2_label {
+    background: #fff url(/images/e6.png) no-repeat center 15px;
+}
+/*2 Panel*/
+
+.iphorm-inner label.iphorm_27_23_3_label {
+    background: #fff url(/images/e2.png) no-repeat center 15px;
+}
+/*LITE KIT & GLASS*/
+/*None*/
+
+.iphorm-inner label.iphorm_27_26_1_label {
+    background: #fff url(/images/single-metal.png) no-repeat center 15px;
+}
+/*V*/
+
+.iphorm-inner label.iphorm_27_26_2_label {
+    background: #fff url(/images/v.png) no-repeat center 15px;
+}
+/*N-5*/
+
+.iphorm-inner label.iphorm_27_26_3_label {
+    background: #fff url(/images/n.png) no-repeat center 15px;
+}
+/*Half Glass*/
+
+.iphorm-inner label.iphorm_27_26_4_label {
+    background: #fff url(/images/6x27.png) no-repeat center 15px;
+}
+/*.iphorm-inner label.iphorm_27_26_4_label:before {
+      content: '.';
+    background: #fff url(/images/mp-new.png) no-repeat center 15px;
+    background-position: 2px 3px;
+    padding: 6px 15px 0px 42px;
+    position: absolute;
+    top: 17px;
+    left: 1px;
+    color: transparent;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    background-size: 60px;
+}*/
+
+
+/*24-24*/
+
+.iphorm-inner label.iphorm_27_26_5_label {
+    background: #fff url(/images/nv.png) no-repeat center 15px;
+}
+/**/
+
+.iphorm-inner label.iphorm_27_26_6_label {
+    background: #fff url(/images/hg.png) no-repeat center 15px;
+}
+/**/
+
+.iphorm-inner label.iphorm_27_26_7_label {
+    background: #fff url(/images/fg.png) no-repeat center 15px;
+}
+/*Full Glass 2*/
+
+.iphorm-inner label.iphorm_27_26_8_label {
+    background: #fff url(/images/fg2.png) no-repeat center 15px;
+}
+/*LOUVERS*/
+/*None*/
+
+.iphorm-inner label.iphorm_27_30_1_label {
+    background: #fff url(/images/single-metal.png) no-repeat center 15px;
+}
+/*L 12x12*/
+
+.iphorm-inner label.iphorm_27_30_2_label {
+    background: #fff url(/images/l12.png) no-repeat center 15px;
+}
+/* 18x18*/
+
+.iphorm-inner label.iphorm_27_30_3_label {
+    background: #fff url(/images/l-1818.png) no-repeat center 15px;
+}
+/*LL*/
+
+.iphorm-inner label.iphorm_27_30_4_label {
+    background: #fff url(/images/l-2412.png) no-repeat center 15px;
+}
+/*L*18*/
+
+.iphorm-inner label.iphorm_27_30_5_label {
+    background: #fff url(/images/l-18.png) no-repeat center 15px;
+}
+.iphorm-inner label.iphorm_27_30_6_label {
+    background: #fff url(/images/l-24.png) no-repeat center 15px;
+}
+.iphorm-inner label.iphorm_27_30_7_label {
+    background: #fff url(/images/ll.png) no-repeat center 15px;
+}
+.iphorm-inner label.iphorm_27_30_8_label {
+    background: #fff url(/images/fl.png) no-repeat center 15px;
+}
+/*ADD A FRAME*/
+/*None*/
+
+.iphorm-inner label.iphorm_27_39_1_label {
+    background: #fff;
+}
+/*KD Drywall*/
+
+.iphorm-inner label.iphorm_27_39_2_label, 
+.iphorm-inner label.iphorm_27_354_1_label{
+    background: #fff url(/images/wood-stud-wall.png) no-repeat center 15px;
+    background-size: 105px 144px !important;
+}
+/*Welded Drywall*/
+
+.iphorm-inner label.iphorm_27_39_3_label,
+.iphorm-inner label.iphorm_27_354_2_label{
+    background: #fff url(/images/steel-stud-wall.png) no-repeat center 15px;
+    background-size: 105px 144px !important;
+}
+/*Welded Masonry*/
+
+.iphorm-inner label.iphorm_27_39_4_label,
+.iphorm-inner label.iphorm_27_354_3_label{
+    background: #fff url(/images/unbuilt-blockwall.png) no-repeat center 15px;
+    background-size: 105px 144px !important;
+}
+/*KD Masonry*/
+
+.iphorm-inner label.iphorm_27_39_5_label,
+.iphorm-inner label.iphorm_27_354_4_label{
+    background: #fff url(/images/existing-blockwall.png) no-repeat center 15px;
+    background-size: 105px 144px !important;
+}
+/*68 HINGE LOCATIONS*/
+/*Steelcraft-DKS*/
+
+.iphorm-inner label.iphorm_27_47_1_label {
+    background: #fff url(/images/dks-68.png) no-repeat center 0;
+}
+/*Ceco*/
+
+.iphorm-inner label.iphorm_27_47_2_label {
+    background: #fff url(/images/ceco-68.png) no-repeat center 0;
+}
+/*Curries*/
+
+.iphorm-inner label.iphorm_27_47_3_label {
+    background: #fff url(/images/curries-68.png) no-repeat center 0;
+}
+/*Mesker*/
+
+.iphorm-inner label.iphorm_27_47_4_label {
+    background: #fff url(/images/mesker-68.png) no-repeat center 0;
+}
+/*Pioneer*/
+
+.iphorm-inner label.iphorm_27_47_5_label {
+    background: #fff url(/images/pioneer-68.png) no-repeat center 0;
+}
+/*70 HINGE LOCATIONS*/
+/*Steelcraft-DKS*/
+
+.iphorm-inner label.iphorm_27_56_1_label {
+    background: #fff url(/images/dks-70.png) no-repeat center 0;
+}
+/*Ceco*/
+
+.iphorm-inner label.iphorm_27_56_2_label {
+    background: #fff url(/images/ceco-70.png) no-repeat center 0;
+}
+/*Curries*/
+
+.iphorm-inner label.iphorm_27_56_3_label {
+    background: #fff url(/images/curries-70.png) no-repeat center 0;
+}
+/*Mesker*/
+
+.iphorm-inner label.iphorm_27_56_4_label {
+    background: #fff url(/images/mesker-70.png) no-repeat center 0;
+}
+/*Pioneer*/
+
+.iphorm-inner label.iphorm_27_56_5_label {
+    background: #fff url(/images/pioneer-70.png) no-repeat center 0;
+}
+/*Republic*/
+
+.iphorm-inner label.iphorm_27_56_6_label {
+    background: #fff url(/images/republic-70.png) no-repeat center 0;
+}
+/*80 HINGE LOCATIONS*/
+/*Steelcraft-DKS*/
+
+.iphorm-inner label.iphorm_27_65_1_label {
+    background: #fff url(/images/dks-80.png) no-repeat center 0;
+}
+/*Ceco*/
+
+.iphorm-inner label.iphorm_27_65_2_label {
+    background: #fff url(/images/ceco-80.png) no-repeat center 0;
+}
+/*Curries*/
+
+.iphorm-inner label.iphorm_27_65_3_label {
+    background: #fff url(/images/curries-80.png) no-repeat center 0;
+}
+/*Mesker*/
+
+.iphorm-inner label.iphorm_27_65_4_label {
+    background: #fff url(/images/mesker-80.png) no-repeat center 0;
+}
+/*Pioneer*/
+
+.iphorm-inner label.iphorm_27_65_5_label {
+    background: #fff url(/images/pioneer-80.png) no-repeat center 0;
+}
+/*ANCHORS*/
+/*Existing Wall*/
+
+.iphorm-inner label.iphorm_27_92_1_label,
+.iphorm-inner label.iphorm_27_149_1_label {
+    background: #fff url(/images/eoa.png) no-repeat center 15px;
+}
+/*Stud Anchor*/
+
+.iphorm-inner label.iphorm_27_92_2_label,
+.iphorm-inner label.iphorm_27_149_2_label {
+    background: #fff url(/images/stud-a.png) no-repeat center 15px;
+}
+/*Wire Anchor*/
+
+.iphorm-inner label.iphorm_27_92_3_label,
+.iphorm-inner label.iphorm_27_149_3_label {
+    background: #fff url(/images/wire-a.png) no-repeat center 15px;
+}
+/*T Anchor*/
+
+.iphorm-inner label.iphorm_27_92_4_label,
+.iphorm-inner label.iphorm_27_149_4_label {
+    background: #fff url(/images/t-a.png) no-repeat center 15px;
+}
+/*ADD HARDWARE*/
+/*None*/
+
+.iphorm-inner label.iphorm_27_124_1_label {
+    padding: 10px;
+    font-weight: bold;
+    /*min-width: 960px!important;*/
+}
+/*Hinges*/
+
+.iphorm-inner label.iphorm_27_107_1_label,
+.iphorm-inner label.iphorm_27_158_1_label,
+.iphorm-inner label.iphorm_27_336_1_label,
+.iphorm-inner label.iphorm_27_376_1_label
+ {
+    background: #fff url(/images/hinge.png) no-repeat center 15px;
+}
+/*Continous Hinge*/
+
+.iphorm-inner label.iphorm_27_107_2_label,
+.iphorm-inner label.iphorm_27_158_2_label,
+.iphorm-inner label.iphorm_27_336_2_label,
+.iphorm-inner label.iphorm_27_376_2_label 
+{
+    background: #fff url(/images/cont.png) no-repeat center 15px;
+}
+/*Panic Bar*/
+
+.iphorm-inner label.iphorm_27_107_3_label,
+.iphorm-inner label.iphorm_27_158_3_label,
+.iphorm-inner label.iphorm_27_339_6_label,
+.iphorm-inner label.iphorm_27_377_6_label{
+    background: #fff url(/images/panic.png) no-repeat center 15px;
+}
+/*Lever Lockset*/
+
+.iphorm-inner label.iphorm_27_107_4_label,
+.iphorm-inner label.iphorm_27_158_4_label,
+.iphorm-inner label.iphorm_27_339_1_label,
+.iphorm-inner label.iphorm_27_377_1_label
+{
+    background: #fff url(/images/lock.png) no-repeat center 15px;
+}
+/*Knob Lockset*/
+
+.iphorm-inner label.iphorm_27_107_5_label,
+.iphorm-inner label.iphorm_27_158_5_label,
+.iphorm-inner label.iphorm_27_339_3_label,
+.iphorm-inner label.iphorm_27_377_3_label{
+    background: #fff url(/images/knob.png) no-repeat center 15px;
+}
+/*Mortise Lock*/
+
+.iphorm-inner label.iphorm_27_107_6_label,
+.iphorm-inner label.iphorm_27_158_6_label,
+.iphorm-inner label.iphorm_27_339_5_label,
+.iphorm-inner label.iphorm_27_377_5_label{
+    background: #fff url(/images/mortise.png) no-repeat center 15px;
+}
+/*Keypad Lock*/
+
+.iphorm-inner label.iphorm_27_107_7_label,
+.iphorm-inner label.iphorm_27_158_7_label,
+.iphorm-inner label.iphorm_27_339_7_label,
+.iphorm-inner label.iphorm_27_377_7_label{
+    background: #fff url(/images/keypad.png) no-repeat center 15px;
+}
+/*Deadbolt*/
+
+.iphorm-inner label.iphorm_27_107_8_label,
+.iphorm-inner label.iphorm_27_158_8_label {
+    background: #fff url(/images/dead.png) no-repeat center 15px;
+}
+/*Electric Strike*/
+
+.iphorm-inner label.iphorm_27_107_9_label,
+.iphorm-inner label.iphorm_27_158_9_label,
+.iphorm-inner label.iphorm_27_348_1_label{
+    background: #fff url(/images/elst.png) no-repeat center 15px;
+}
+/*Push-Pull*/
+
+.iphorm-inner label.iphorm_27_107_10_label,
+.iphorm-inner label.iphorm_27_158_10_label,
+.iphorm-inner label.iphorm_27_339_8_label,
+.iphorm-inner label.iphorm_27_377_8_label{
+    background: #fff url(/images/push.png) no-repeat center 15px;
+}
+/*Door Closer*/
+
+.iphorm-inner label.iphorm_27_107_11_label,
+.iphorm-inner label.iphorm_27_158_11_label,
+.iphorm-inner label.iphorm_27_342_1_label,
+.iphorm-inner label.iphorm_27_380_1_label{
+    background: #fff url(/images/closer.png) no-repeat center 15px;
+}
+
+.iphorm-inner label.iphorm_27_380_2_label{
+    background: #fff url(/images/wind-chain.png) no-repeat center 15px;
+}
+/*Kick Down Holder*/
+
+.iphorm-inner label.iphorm_27_107_12_label,
+.iphorm-inner label.iphorm_27_158_12_label,
+.iphorm-inner label.iphorm_27_345_1_label{
+
+    background: #fff url(/images/kickp.png) no-repeat center 15px;
+}
+/*Kickplate*/
+
+.iphorm-inner label.iphorm_27_107_13_label,
+.iphorm-inner label.iphorm_27_158_13_label,
+.iphorm-inner label.iphorm_27_348_2_label{
+    background: #fff url(/images/kick.png) no-repeat center 15px;
+}
+/*Wall Stop*/
+
+.iphorm-inner label.iphorm_27_107_14_label,
+.iphorm-inner label.iphorm_27_158_14_label,
+.iphorm-inner label.iphorm_27_348_3_label{
+    background: #fff url(/images/wall.png) no-repeat center 15px;
+}
+/*Floor Stop*/
+
+.iphorm-inner label.iphorm_27_107_15_label,
+.iphorm-inner label.iphorm_27_158_15_label,
+.iphorm-inner label.iphorm_27_348_4_label{
+    background: #fff url(/images/floor.png) no-repeat center 15px;
+}
+/*Threshold*/
+
+.iphorm-inner label.iphorm_27_107_16_label,
+.iphorm-inner label.iphorm_27_158_16_label,
+.iphorm-inner label.iphorm_27_345_2_label{
+    background: #fff url(/images/thresh.png) no-repeat center 15px;
+}
+/*Door Sweep*/
+
+.iphorm-inner label.iphorm_27_107_17_label,
+.iphorm-inner label.iphorm_27_158_17_label,
+.iphorm-inner label.iphorm_27_345_3_label{
+    background: #fff url(/images/sweep.png) no-repeat center 15px;
+}
+/*Weatherstrip*/
+
+.iphorm-inner label.iphorm_27_107_18_label,
+.iphorm-inner label.iphorm_27_158_18_label,
+.iphorm-inner label.iphorm_27_345_4_label{
+    background: #fff url(/images/weather.png) no-repeat center 15px;
+}
+/*Latch Protector*/
+
+.iphorm-inner label.iphorm_27_107_19_label,
+.iphorm-inner label.iphorm_27_158_19_label,
+.iphorm-inner label.iphorm_27_345_5_label{
+    background: #fff url(/images/latch.png) no-repeat center 15px;
+}
+/*Door Viewer*/
+
+.iphorm-inner label.iphorm_27_107_20_label,
+.iphorm-inner label.iphorm_27_158_20_label,
+.iphorm-inner label.iphorm_27_348_5_label {
+    background: #fff url(/images/viewer.png) no-repeat center 15px;
+}
+/*PANIC TRIM*/
+/*Exit Only*/
+
+.iphorm-inner label.iphorm_27_110_1_label,
+.iphorm-inner label.iphorm_27_161_1_label {
+    background: #fff;
+}
+/*Lever Trim*/
+
+.iphorm-inner label.iphorm_27_110_2_label,
+.iphorm-inner label.iphorm_27_161_2_label {
+    background: #fff url(/images/lever1.png) no-repeat center 15px;
+}
+/*Night Latch*/
+
+.iphorm-inner label.iphorm_27_110_3_label,
+.iphorm-inner label.iphorm_27_161_3_label {
+    background: #fff url(/images/nl.png) no-repeat center 15px;
+}
+/*Thumbpiece*/
+
+.iphorm-inner label.iphorm_27_110_4_label,
+.iphorm-inner label.iphorm_27_161_4_label {
+    background: #fff url(/images/thumb.png) no-repeat center 15px;
+}
+/*Dummy Pull*/
+
+.iphorm-inner label.iphorm_27_110_5_label,
+.iphorm-inner label.iphorm_27_161_5_label {
+    background: #fff url(/images/dummy.png) no-repeat center 15px;
+}
+/*Lock Functions*/
+/*Entry*/
+
+.iphorm-inner label.iphorm_27_120_1_label,
+.iphorm-inner label.iphorm_27_166_1_label {
+    background: #fff url(/wp-content/uploads/2014/01/entrance.jpg) no-repeat center 15px;
+}
+/*Storeroom*/
+
+.iphorm-inner label.iphorm_27_120_2_label,
+.iphorm-inner label.iphorm_27_166_2_label {
+    background: #fff url(/wp-content/uploads/2014/01/storeroom.jpg) no-repeat center 15px;
+}
+/*Clasroom*/
+
+.iphorm-inner label.iphorm_27_120_3_label,
+.iphorm-inner label.iphorm_27_166_3_label {
+    background: #fff url(/wp-content/uploads/2014/01/storeroom.jpg) no-repeat center 15px;
+}
+/*Privacy*/
+
+.iphorm-inner label.iphorm_27_120_4_label,
+.iphorm-inner label.iphorm_27_166_4_label {
+    background: #fff url(/wp-content/uploads/2014/01/privacy-1.jpg) no-repeat center 15px;
+}
+/*Passage*/
+
+.iphorm-inner label.iphorm_27_120_5_label,
+.iphorm-inner label.iphorm_27_166_5_label {
+    background: #fff url(/wp-content/uploads/2014/01/passage-1.jpg) no-repeat center 15px;
+}
+/*HARDWARE FINISH*/
+/*Satin Chrome*/
+
+.iphorm-inner label.iphorm_27_113_1_label,
+.iphorm-inner label.iphorm_27_169_1_label {
+    background: #fff url(/images/32d.png) no-repeat center 15px;
+}
+/*Stainless Steel*/
+
+.iphorm-inner label.iphorm_27_113_2_label,
+.iphorm-inner label.iphorm_27_169_2_label {
+    background: #fff url(/images/10b.png) no-repeat center 15px;
+}
+/*Brass*/
+
+.iphorm-inner label.iphorm_27_113_3_label,
+.iphorm-inner label.iphorm_27_169_3_label {
+    background: #fff url(/images/us4.png) no-repeat center 15px;
+}
+/*Bronze*/
+
+.iphorm-inner label.iphorm_27_113_4_label,
+.iphorm-inner label.iphorm_27_169_4_label {
+    background: #fff url(/images/us3.png) no-repeat center 15px;
+}
+/*Dark Bronze*/
+
+.iphorm-inner label.iphorm_27_113_5_label,
+.iphorm-inner label.iphorm_27_169_5_label {
+    background: #fff url(/images/10b.png) no-repeat center 15px;
+}
+/*FRAME ONLY*/
+/*FRAME ELEVATIONS*/
+/*Single*/
+
+.iphorm-inner label.iphorm_27_130_1_label {
+    background: #fff url(/images/single.png) no-repeat center 15px;
+}
+/*Pair*/
+
+.iphorm-inner label.iphorm_27_130_2_label {
+    background: #fff url(/images/pair.png) no-repeat center 15px;
+}
+/*Transom*/
+
+.iphorm-inner label.iphorm_27_130_3_label {
+    background: #fff url(/images/transom.png) no-repeat center 15px;
+}
+/*Sidelite*/
+
+.iphorm-inner label.iphorm_27_130_4_label {
+    background: #fff url(/images/sidelite.png) no-repeat center 15px;
+}
+/*Borrowed Lite*/
+
+.iphorm-inner label.iphorm_27_130_5_label {
+    background: #fff url(/images/borrowed.png) no-repeat center 15px;
+}
+/*FRAME TYPE*/
+/*KD Drywall*/
+
+.iphorm-inner label.iphorm_27_136_1_label {
+    background: #fff url(/images/kd.png) no-repeat center 15px;
+}
+/*Welded Drywall*/
+
+.iphorm-inner label.iphorm_27_136_2_label {
+    background: #fff url(/images/fr-pre.png) no-repeat center 15px;
+}
+/*Welded Masonry*/
+
+.iphorm-inner label.iphorm_27_136_3_label {
+    background: #fff url(/images/fr.png) no-repeat center 15px;
+}
+/*KD Masonry*/
+
+.iphorm-inner label.iphorm_27_136_4_label {
+    background: #fff url(/images/kd.png) no-repeat center 15px;
+}
+
+/*Metal Building Door Start */
+
+.iphorm-inner  label.iphorm_27_268_1_label {
+	background: #fff url(/images/3070.png) no-repeat center 15px;
+}
+
+.iphorm-inner  label.iphorm_27_268_2_label {
+	background: #fff url(/images/4070.png) no-repeat center 15px;
+}
+.iphorm-inner  label.iphorm_27_268_3_label {
+	background: #fff url(/images/6070.png) no-repeat center 15px;
+}
+
+/*Metal Building Door  End*/
+
+
+/*Metal Building Door Add Lite Kit w/ Glass start  */
+
+label.iphorm_27_279_2_label {
+    background: #fff url(/images/g-6x30.png) no-repeat center 14px;
+}
+
+label.iphorm_27_279_3_label {
+    background: #fff url(/images/g-16x16.png) no-repeat center 14px;
+}
+
+label.iphorm_27_279_4_label {
+    background: #fff url(/images/g-24x30.png) no-repeat center 14px;
+}
+
+label.iphorm_27_279_5_label {
+    background: #fff url(/images/g-24x36.png) no-repeat center 14px;
+}
+
+/*Metal Building Door Add Lite Kit w/ Glass start  */
+
+
+/*Metal Building Door Add Louver start */
+
+label.iphorm_27_285_2_label {
+    background: #fff url(/images/lm-24x18.png) no-repeat center 14px;
+}
+
+label.iphorm_27_285_3_label {
+    background: #fff url(/images/lm-24x24.png) no-repeat center 14px;
+}
+
+/*Metal Building Door Add Louver end */
+
+/*Metal Building Door finish start */
+
+label.iphorm_27_291_1_label {
+    background: #fff url(/images/white.png) no-repeat center 14px;
+}
+
+label.iphorm_27_291_2_label {
+    background: #fff url(/images/bronze.png) no-repeat center 14px;
+}
+
+/*Metal Building Door finish end */
+
+
+/*Metal Building Door Select a Hardware Package start */
+
+label.iphorm_27_294_1_label {
+    background: #fff url(/images/hw-lock.png) no-repeat center 14px;
+}
+
+label.iphorm_27_294_2_label {
+    background: #fff url(/images/hw-l-closer.png) no-repeat center 14px;
+}
+
+label.iphorm_27_294_3_label {
+    background: #fff url(/images/hw-l-db.png) no-repeat center 14px;
+}
+
+label.iphorm_27_294_4_label {
+    background: #fff url(/images/hw-l-db-closer.png) no-repeat center 14px;
+}
+
+label.iphorm_27_294_5_label {
+    background: #fff url(/images/hw-panic-closer.png) no-repeat center 14px;
+}
+
+label.iphorm_27_294_6_label {
+    background: #fff url(/images/hw-eo-panic-closer.png) no-repeat center 14px;
+}
+
+label.iphorm_27_294_7_label {
+    background: #fff url(/images/hw-l-db.png) no-repeat center 14px;
+}
+
+/*Metal Building Door Select a Hardware Package end */
+
+
+
+
+/* fix for without image box.  (If images added you can delete this styles. !important.)  */
+
+label.iphorm_27_285_1_label, label.iphorm_27_279_1_label {
+    padding: 87px 10px !important;
+}
+
+label.iphorm_27_284_1_label, label.iphorm_27_284_2_label, label.iphorm_27_304_1_label, label.iphorm_27_304_2_label, label.iphorm_27_304_3_label, label.iphorm_27_304_4_label, label.iphorm_27_304_5_label, label.iphorm_27_304_6_label {
+    padding:10px !important;
+}
+
+/* fix for without image box.   (If images added you can delete this styles. !important.)  */
+
+
+
+
+
+.iphorm-uniform-theme-default div.selector {
+    overflow: visible !important;
+}
+.iphorm-uniform-theme-default div.radio,
+.iphorm-uniform-theme-default div.radio span,
+.iphorm-uniform-theme-default div.radio input {
+    display: none !important;
+}
+.iphorm-uniform-theme-default div.radio {
+    display: none !important;
+}
+div.iphorm-input-li.iphorm-input-radio-li.iphorm_27_211-input-li {
+    float: none !important;
+}
+.iphorm-group-wrap.iphorm_27_217-group-wrap.iphorm-clearfix.iphorm-labels-above.iphorm-group-style-plain.iphorm-group-alignment-proportional {} 
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+    .iphorm_27_190_1_label {
+        width: 50% !important;
+    }
+    .iphorm_27_190_2_label {
+        width: 50% !important;
+    }
+    /*.iphorm_27_248_1_label {
+        width: 50% !important;
+    }
+    .iphorm_27_248_2_label {
+        width: 50% !important;
+    }
+    .iphorm_27_248_3_label {
+        width: 50% !important;
+    }
+    .iphorm_27_248_4_label {
+        width: 50% !important;
+    }*/
+}
+
+
+
+
+@media only screen and (min-width: 320px) and (max-width: 1200px) {
+.iphorm_27_5-input-li{
+  float:none !important;
+  padding: 0 5px 5px 0 !important;
+}
+}
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+
+
+
+.iphorm_27_248-input-wrap, .iphorm_27_190-input-wrap{
+display: inline;
+
+}
+
+ .iphorm_27_248-input-radio-ul .iphorm-input-li{
+    display:block !important;
+  }
+    .iphorm_27_248-input-radio-ul .iphorm-input-li label{
+        white-space: normal;
+       width:100% !important;
+  }
+    .iphorm_27_183-group-wrap {
+        width: 100% !important;
+    }
+    @media only screen and (min-width: 320px) and (max-width: 767px) {
+        .iphorm_27_187-input-wrap {
+            margin-left: 0px !important;
+        }
+        .iphorm_27_244-element-wrap {
+            font-size: 12px !important;
+        }
+    }
+    .iphorm_27_48-element-wrap input {
+        width: 100% !important;
+        min-width: 0px !important;
+    }
+    .iphorm_27_59-element-wrap input {
+        width: 100% !important;
+        min-width: 0px !important;
+    }
+    .iphorm_27_68-element-wrap input {
+        width: 100% !important;
+        min-width: 0px !important;
+    }
+    .iphorm-options-inline > .iphorm-input-checkbox-li,
+    .iphorm-options-inline > .iphorm-input-radio-li {
+        float: none !important;
+    }
+    .iphorm-inner .iphorm_27_17-input-li label,
+    .iphorm-inner .iphorm_27_270-input-li label {
+        min-width: 245px;
+    }
+}
+div.iphorm-group-row.iphorm-clearfix.iphorm-group-row-4cols.last-child {
+    display: block !important;
+}
+div.iphorm-group-row.iphorm-clearfix.iphorm-group-row-5cols.last-child {
+    display: block !important;
+}
+.iphorm_27_10-group-wrap {
+    width: 613px !important;
+}
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    .iphorm_27_190-input-li {
+        /*padding-right: 70px !important;
+        margin-left: -16px !important;*/
+    }
+}
+.iphorm_27_248-input-li {
+    /*padding-right: 70px !important;
+    margin-left: -16px !important;*/
+}
+}
+.iphorm_27_62-element-wrap .last-child {
+    width: auto !important;
+}
+/*LITE KITS / LOUVERS ONLY*/
+
+.iphorm-form-23 .iphorm_23_1-group-wrap .iphorm-group-row {
+    display: inline-flex!important;
+}
+.iphorm-form-23 .iphorm-labels-above > .iphorm-element-spacer > label {
+    border-top: 2px solid #f2f2f2;
+    padding: 18px 0px 8px 0px;
+    min-width: 80%;
+}
+.iphorm-inner .iphorm_23_1-input-li label, .iphorm-inner .iphorm_27_309-input-li label{
+    position: relative;
+    padding: 165px 10px 10px 10px;
+    min-width: 220px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+/*full kit*/
+
+.iphorm-inner label.iphorm_23_1_1_label, .iphorm-inner label.iphorm_27_309_1_label {
+    background: #fff url(/images/full-kit.png) no-repeat center 10px;
+}
+/*frame only*/
+
+.iphorm-inner label.iphorm_23_1_2_label , .iphorm-inner label.iphorm_27_309_2_label{
+    background: #fff url(/images/lite-frame.png) no-repeat center 10px;
+}
+/*louver*/
+
+.iphorm-inner label.iphorm_23_1_3_label , .iphorm-inner label.iphorm_27_309_3_label{
+    background: #fff url(/images/louver-only.png) no-repeat center 10px;
+}
+/*order size*/
+
+.iphorm-inner .iphorm_23_2-input-li label,
+.iphorm-inner .iphorm_23_17-input-li label,
+.iphorm-inner .iphorm_27_312-input-li label,
+.iphorm-inner .iphorm_27_322-input-li label {
+    position: relative;
+    padding: 10px;
+    min-width: 251px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.iphorm-inner .iphorm_23_3-input-li label, .iphorm-inner .iphorm_27_316-input-li label {
+    position: relative;
+    padding: 205px 10px 10px 10px;
+    min-width: 269px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.iphorm-inner .iphorm_23_12-input-li label, .iphorm-inner .iphorm_27_319-input-li label {
+    position: relative;
+    padding: 175px 10px 10px 10px;
+    min-width: 193px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.iphorm-inner .iphorm_23_20-input-li label, .iphorm-inner .iphorm_27_326-input-li label {
+    position: relative;
+    padding: 10px;
+    min-width: 269px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+/*Vision Frame Profile*/
+
+.iphorm-inner label.iphorm_23_3_1_label, .iphorm-inner label.iphorm_27_316_1_label {
+    background: #fff url(/images/svl.png) no-repeat center 5px;
+}
+.iphorm-inner label.iphorm_23_3_2_label, .iphorm-inner label.iphorm_27_316_2_label {
+    background: #fff url(/images/vl.png) no-repeat center 5px;
+}
+/*.iphorm-inner label.iphorm_27_316_2_label:before {
+      content: '.';
+    background: #fff url(/images/mp-new.png) no-repeat center 15px;
+    background-position: 2px 3px;
+    padding: 6px 15px 0px 42px;
+    position: absolute;
+    top: 17px;
+    left: 1px;
+    color: transparent;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    background-size: 60px;
+}*/
+/*Glass Type*/
+
+.iphorm-inner label.iphorm_23_12_1_label,  .iphorm-inner label.iphorm_27_319_1_label{
+    background: #fff url(/images/temp.png) no-repeat center 5px;
+}
+.iphorm-inner label.iphorm_23_12_2_label,  .iphorm-inner label.iphorm_27_319_2_label {
+    background: #fff url(/images/wire.png) no-repeat center 5px;
+}
+.iphorm-inner label.iphorm_23_12_3_label ,  .iphorm-inner label.iphorm_27_319_3_label{
+    background: #fff url(/images/ceramic.png) no-repeat center 5px;
+}
+.iphorm_27_259-outer-label {
+    font-weight: normal !important;
+    padding: 2px !important;
+}
+.iphorm_27_259_1_label:hover {
+    border: 0 !important;
+}
+div.iphorm_27_259-input-li div.radio {
+    display: block !important;
+    float: left;
+    margin-left: 19px;
+}
+.iphorm_27_259-element-wrap {
+    width: 50% !important;
+}
+.iphorm_27_259_1_label {
+    width: 100% !important;
+}
+div.iphorm_27_26-input-li label,
+div.iphorm_27_30-input-li label {
+    min-width: 251px !important;
+}
+/* New Form */
+
+.iphorm_23_1-outer-label {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.iphorm_23_1-input-wrap,
+.iphorm_23_3-input-wrap,
+.iphorm_23_12-input-wrap,
+.iphorm_23_20-input-wrap,
+.iphorm_23_28-input-wrap,
+.iphorm_27_309-input-wrap,
+.iphorm_27_322-input-wrap,
+.iphorm_27_326-input-wrap,
+.iphorm_27_312-input-wrap,
+.iphorm_27_316-input-wrap,
+.iphorm_27_319-input-wrap
+ {
+    display: inline-block;
+}
+.iphorm-inner .iphorm_23_2-input-li label, .iphorm-inner .iphorm_27_312-input-li label {
+    position: relative;
+    padding: 10px;
+    min-width: 251px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.iphorm-inner .iphorm_23_17-input-li label {
+    position: relative;
+    padding: 10px;
+    min-width: 251px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.iphorm-form-23 .iphorm-labels-above>.iphorm-element-spacer>label {
+    border-top: 2px solid #f2f2f2 !important;
+    padding: 18px 0px 8px 0px;
+    min-width: 80%;
+    color: #000 !important;
+}
+.iphorm_23_5-group-wrap {
+    margin-bottom: 30px !important;
+    margin-top: 20px !important;
+}
+.iphorm_23_28-input-wrap label {
+    font-weight: bold;
+    font-size: 16px;
+    border: 3px solid rgb(242, 242, 242);
+    padding: 5px
+}
+.iphorm_23_25-element-spacer label {
+    font-weight: bold;
+    border-top: 2px solid #f2f2f2 !important;
+    padding: 18px 0px 8px 0px;
+    min-width: 80%;
+    color: #000 !important;
+}
+.iphorm-submit-wrap-23 {
+    width: 770px;
+    margin: auto;
+}
+.iphorm-submit-wrap-23 .iphorm_23_31-group-wrap {
+    text-align: left;
+}
+.iphorm_23_33-group-wrap .last-child {
+    margin-left: 10px;
+}
+.iphorm_23_33-group-wrap .iphorm-group-row-1cols {
+    float: left;
+    width: 49%;
+}
+.iphorm_23_35-element-wrap label,
+.iphorm_23_36-element-wrap label {
+    width: 100%;
+    text-align: left;
+}
+.iphorm_23_35,
+.iphorm_23_36 {
+    width: 100%;
+}
+.iphorm_23_37-group-wrap .iphorm-group-row-1cols {
+    float: left;
+    width: 32%;
+    margin-left: 10px;
+}
+.iphorm_23_37-group-wrap .iphorm-group-row-1cols:first-child {
+    margin-left: 0px !important;
+}
+.iphorm_23_39-element-wrap label,
+.iphorm_23_40-element-wrap label,
+.iphorm_23_41-element-wrap label {
+    width: 100%;
+    text-align: left;
+}
+.iphorm_23_39,
+.iphorm_23_40,
+.iphorm_23_41 {
+    width: 100%;
+}
+.iphorm_23_31-group-wrap,
+.iphorm_23_42-group-wrap {
+    border: solid 1px #CECECE;
+    padding: 11px !important;
+    margin-bottom: 20px !important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.iphorm_23_44-group-wrap .iphorm-group-row-1cols {
+    width: 50%;
+    float: left;
+}
+.iphorm_23_48-element-wrap label,
+.iphorm_23_48-element-wrap label {
+    width: 100%;
+    text-align: left;
+}
+.iphorm_23_48,
+.iphorm_23_49 {
+    width: 100%;
+}
+.iphorm_23_50-group-wrap {
+    border: solid 1px #CECECE;
+    padding: 11px !important;
+    margin-bottom: 20px !important;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.iphorm_23_29-group-wrap label {
+    padding: 0 !important;
+    border: 0 !important;
+}
+.iphorm_23_44-group-wrap,
+.iphorm_23_50-group-wrap {
+    text-align: left;
+    font-weight: normal !important;
+}
+div.iphorm_23_44-group-wrap .iphorm-group-title {
+    font-weight: normal;
+}
+.iphorm_23_48_1_label div.radio span,
+.iphorm_23_48_2_label div.radio span,
+.iphorm_23_48_1_label div.radio,
+.iphorm_23_48_2_label div.radio {
+    display: block !important;
+    float: left;
+    margin-top: 2px !important;
+}
+div.iphorm_23_48-input-wrap .iphorm_23_48-input-radio-ul {
+    margin-left: 20px;
+}
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+    .iphorm_23_33-group-wrap .iphorm-group-row-1cols {
+        float: none !important;
+        width: 100% !important;
+    }
+    .iphorm_23_33-group-wrap .last-child {
+        margin-left: 0px !important;
+    }
+    .iphorm_23_37-group-wrap .iphorm-group-row-1cols {
+        float: none !important;
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
+    .iphorm_23_44-group-wrap .iphorm-group-row-1cols {
+        float: none !important;
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
+}
+.iphorm-form-27 .iphorm_27_1-group-wrap .iphorm-group-row {
+    display: inline-flex!important;
+}
+/*new*/
+
+.iphorm-inner .iphorm_27_268-input-li label,
+.iphorm-inner .iphorm_27_285-input-li label {
+    position: relative;
+    padding: 165px 10px 10px 10px;
+    min-width: 193px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.iphorm-form-27 .iphorm_27_266-group-wrap .iphorm-group-row {
+    display: inline-flex!important;
+}
+.iphorm-inner .iphorm_27_288-input-li label {
+    position: relative;
+    padding: 10px;
+    min-width: 190px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.iphorm_27_5-input-radio-ul{
+    width: 66%;
+    margin: auto;
+}
+
+.iphorm_27_107-element-wrap, .iphorm_27_258-element-wrap{
+    display: none !important
+}
+.iphorm_27_103-group-wrap, .iphorm_27_134-group-wrap, .iphorm_27_354-element-wrap, .iphorm_27_364-element-wrap {
+width:1000px !important;
+}
+.iphorm_27_211_1_label{
+    padding: 10px 25px !important;
+}
+
+
+.iphorm-inner label.iphorm_27_329_1_label,
+.iphorm-inner label.iphorm_27_143_1_label
+{
+    background: #fff url(/images/458-wood.png) no-repeat center 15px;
+    
+}
+
+.iphorm-inner label.iphorm_27_329_2_label,
+.iphorm-inner label.iphorm_27_143_2_label
+{
+    background: #fff url(/images/478-wood.png) no-repeat center 15px;
+  
+    background-position: 26px;
+}
+
+.iphorm-inner label.iphorm_27_329_3_label,
+.iphorm-inner label.iphorm_27_143_3_label
+{
+    background: #fff url(/images/618-wood.png) no-repeat center 15px;
+    
+}
+
+.iphorm-inner label.iphorm_27_329_4_label,
+.iphorm-inner label.iphorm_27_143_4_label
+{
+    background: #fff url(/images/634-wood.png) no-repeat center 15px;
+}
+
+
+
+.iphorm-inner label.iphorm_27_44_1_label,
+.iphorm-inner label.iphorm_27_360_1_label
+{
+    background: #fff url(/images/434-steel.png) no-repeat center 15px;
+background-size: 75% 65%;
+}
+
+.iphorm-inner label.iphorm_27_44_2_label,
+.iphorm-inner label.iphorm_27_360_2_label
+{
+    background: #fff url(/images/458-steel.png) no-repeat center 15px;
+background-size: 75% 65%;
+}
+
+.iphorm-inner label.iphorm_27_44_3_label,
+.iphorm-inner label.iphorm_27_360_3_label
+{
+    background: #fff url(/images/478-steel.png) no-repeat center 15px;
+background-size: 75% 65%;
+
+}
+
+.iphorm-inner label.iphorm_27_44_4_label,
+.iphorm-inner label.iphorm_27_360_4_label
+{
+    background: #fff url(/images/618-steel.png) no-repeat center 15px;
+background-size: 75% 65%;
+background-position: 26px 25px;
+}
+
+
+.iphorm-inner label.iphorm_27_44_5_label,
+.iphorm-inner label.iphorm_27_360_5_label
+{
+    background: #fff url(/images/714-steel.png) no-repeat center 15px;
+background-size: 75% 65%;
+}
+
+
+
+.iphorm-inner label.iphorm_27_339_2_label, .iphorm-inner label.iphorm_27_377_2_label
+{
+    background: #fff url(/images/lever-deadbolt.png) no-repeat center 15px;
+}
+
+.iphorm-inner label.iphorm_27_339_4_label,.iphorm-inner label.iphorm_27_377_4_label
+{
+    background: #fff url(/images/knob-deadbolt.png) no-repeat center 15px;
+}
+
+.iphorm-inner label.iphorm_27_342_2_label
+{
+    background: #fff url(/images/wind-chain.png) no-repeat center 15px;
+}
+
+.iphorm-inner label.iphorm_27_110_6_label
+{
+    background: #fff url(/images/escutcheon-lever.png) no-repeat center 15px;
+}
+
+.iphorm-inner label.iphorm_27_110_7_label
+{
+    background: #fff url(/images/digital-keypad.png) no-repeat center 15px;
+}
+
+.iphorm-inner label.iphorm_27_110_8_label
+{
+    background: #fff url(/images/mechanical-keypad.png) no-repeat center 15px;
+}
+
+.iphorm_27_329-input-radio-ul div.iphorm_27_329-input-li:last-child, .iphorm_27_143-input-radio-ul div.iphorm_27_143-input-li:last-child,
+.iphorm_27_44-input-radio-ul div.iphorm_27_44-input-li:last-child, .iphorm_27_360-input-radio-ul div.iphorm_27_360-input-li:last-child {
+    margin: auto !important;
+    float: none !important;
+}
+.iphorm_27_354-input-radio-ul{
+    display: inline-block;
+}
+
+.iphorm-inner .iphorm_27_329-input-li label.iphorm_27_329_5_label, .iphorm_27_143_5_label, .iphorm_27_44_6_label, .iphorm_27_360_6_label{
+    height: 20px !important;
+    padding: 14px 0 !important;
+    padding-top: 9px !important;
+    min-width: 150px !important;
+}
+
+.iphorm-inner .iphorm_27_44-input-li label, .iphorm-inner .iphorm_27_360-input-li label
+{
+position: relative;
+    padding: 155px 10px 10px 10px;
+    min-width: 193px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+.iphorm_27_248_1_label span, .iphorm_27_248_2_label span, .iphorm_27_248_3_label span, .iphorm_27_248_4_label span{
+font-size: 10px;
+}
+.iphorm-submit-element span{
+padding: 10px 4px 10px 21px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.iphorm-inner label.iphorm_27_383_1_label{
+ background: #fff url(/images/white2.png) no-repeat center 15px;
+}
+
+.iphorm-inner label.iphorm_27_383_2_label{
+ background: #fff url(/images/brown.png) no-repeat center 15px;
+}
+
+.iphorm-inner label.iphorm_27_383_3_label{
+ background: #fff url(/images/black.png) no-repeat center 15px;
+}
+
+
+.iphorm-inner label.iphorm_27_383_4_label{
+ background: #fff url(/images/alumatone.png) no-repeat center 15px;
+}
+.iphorm_27_364-input-wrap{
+    display: inline-block;
+
+}
+
+.iphorm-inner .iphorm_27_402-input-li label, .iphorm-inner .iphorm_27_399-input-li label{
+  position: relative;
+    padding: 6px;
+    min-width: 388px;
+    border: 3px solid #f2f2f2;
+    text-align: center;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#bold_char {
+    font-weight: bold;
+}
+#bold_char span {
+    font-weight: 500 !important;
+}

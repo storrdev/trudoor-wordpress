@@ -1,0 +1,2 @@
+[06-Apr-2017 03:27:37 America/Chicago] PHP Fatal error:  Class 'WP_REST_Controller' not found in /home3/buckeye/public_html/wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php on line 17
+[06-Apr-2017 05:40:57 America/Chicago] PHP Fatal error:  Class 'WP_REST_Posts_Controller' not found in /home3/buckeye/public_html/wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php on line 17

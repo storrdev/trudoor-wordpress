@@ -1,0 +1,481 @@
+### Wigum htaccess ###
+### Custom Error Pages
+ErrorDocument 400 /error.php
+ErrorDocument 403 /404.php
+ErrorDocument 404 /404.php
+
+Options +FollowSymLinks
+
+RewriteEngine on
+
+# Hide our configs & class files
+RewriteRule (.*)config.php$ /404.php
+RewriteRule (.*)class(.*).php$ /404.php
+RewriteRule ^library/(.*)/version /404.php
+
+# General Asset rewrites
+RewriteRule ^js/([^/]*)$ library/js/$1 [L]
+RewriteRule ^css/([^/]*)$ library/css/$1 [L]
+RewriteRule ^images/(.*)$ library/images/$1
+RewriteRule ^font/([^/]*)$ library/font/$1 [L]
+
+# Standard User URLs
+RewriteRule ^logout$ /logout/ [R]
+RewriteRule ^logout/$ /login/index.php?action=logout
+
+RewriteRule ^login/forgot-password$ /login/forgot-password/ [R]
+RewriteRule ^login/forgot-password/$ /dashboard/forgot_password.php
+
+RewriteRule ^account/edit$ /dashboard/edit/ [R]
+RewriteRule ^account/edit/ /dashboard/edit_account.php
+
+# Admin URLs
+RewriteRule ^admin/modules/(.*)/(.*)$ library/modules/$1/admin/$2
+RewriteRule ^admin/$ library/modules/admin_dashboard/view/index.php
+RewriteRule ^admin$ library/modules/admin_dashboard/view/index.php
+RewriteRule ^admin/dashboard/([A-Za-z0-9_-]+)/$ library/modules/admin_dashboard/view/$1.php
+
+# Wigum Module URLs
+# Mask our library folder locations with friendly URLs.
+RewriteRule ^uploader/(.*) /library/modules/uploader/$1 [L]
+RewriteRule ^ajax(.*)/(.*)/$ library/modules/$1/ajax/ajax.$2.php [L]
+RewriteRule ^ajax(.*)/(.*)$ library/modules/$1/ajax/ajax.$2.php [L]
+RewriteRule ^css/([^/]+)/?(.*)$ library/modules/$1/css/$2 [L]
+RewriteRule ^files/([^/]+)/?(.*)$ library/modules/$1/files/$2 [L]
+RewriteRule ^js/([^/]+)/?(.*)$ library/modules/$1/js/$2 [L]
+RewriteRule ^images/([^/]+)/?(.*)$ library/modules/$1/images/$2 [L]
+RewriteRule ^uploads/(.*)$ library/uploads/$1 [L]
+RewriteRule ^assets/(.*)$ library/modules/admin_dashboard/assets/$1 [L]
+
+# Wigum Captcha
+RewriteRule ^captcha/audio$ library/modules/captcha/audio.php [L]
+RewriteRule ^captcha(.*)$ library/modules/captcha/display.php [L]
+
+# API
+RewriteCond %{REQUEST_URI} !/api/index.php
+RewriteRule ^api/(.*)$ /api/index.php [L,QSA]
+
+# ----------------------------------------------------------------------
+# | Compression                                                        |
+# ----------------------------------------------------------------------
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE text/javascript
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+
+
+# ----------------------------------------------------------------------
+# | Expires headers                                                    |
+# ----------------------------------------------------------------------
+
+# Serve resources with far-future expires headers.
+#
+# (!) If you don't control versioning with filename-based
+# cache busting, you should consider lowering the cache times
+# to something like one week.
+#
+# https://httpd.apache.org/docs/current/mod/mod_expires.html
+
+<IfModule mod_expires.c>
+
+    ExpiresActive on
+    ExpiresDefault                                      "access plus 1 month"
+
+  # CSS
+    ExpiresByType text/css                              "access plus 1 year"
+
+  # Data interchange
+    ExpiresByType application/atom+xml                  "access plus 1 hour"
+    ExpiresByType application/rdf+xml                   "access plus 1 hour"
+    ExpiresByType application/rss+xml                   "access plus 1 hour"
+
+    ExpiresByType application/json                      "access plus 0 seconds"
+    ExpiresByType application/ld+json                   "access plus 0 seconds"
+    ExpiresByType application/schema+json               "access plus 0 seconds"
+    ExpiresByType application/vnd.geo+json              "access plus 0 seconds"
+    ExpiresByType application/xml                       "access plus 0 seconds"
+    ExpiresByType text/xml                              "access plus 0 seconds"
+
+  # Favicon (cannot be renamed!) and cursor images
+    ExpiresByType image/vnd.microsoft.icon              "access plus 1 week"
+    ExpiresByType image/x-icon                          "access plus 1 week"
+
+  # HTML
+    ExpiresByType text/html                             "access plus 0 seconds"
+
+  # JavaScript
+    ExpiresByType application/javascript                "access plus 1 year"
+    ExpiresByType application/x-javascript              "access plus 1 year"
+    ExpiresByType text/javascript                       "access plus 1 year"
+
+  # Manifest files
+    ExpiresByType application/manifest+json             "access plus 1 year"
+
+    ExpiresByType application/x-web-app-manifest+json   "access plus 0 seconds"
+    ExpiresByType text/cache-manifest                   "access plus 0 seconds"
+
+  # Media files
+    ExpiresByType audio/ogg                             "access plus 1 month"
+    ExpiresByType image/bmp                             "access plus 1 month"
+    ExpiresByType image/gif                             "access plus 1 month"
+    ExpiresByType image/jpeg                            "access plus 1 month"
+    ExpiresByType image/png                             "access plus 1 month"
+    ExpiresByType image/svg+xml                         "access plus 1 month"
+    ExpiresByType video/mp4                             "access plus 1 month"
+    ExpiresByType video/ogg                             "access plus 1 month"
+    ExpiresByType video/webm                            "access plus 1 month"
+
+  # Web fonts
+
+    # Embedded OpenType (EOT)
+    ExpiresByType application/vnd.ms-fontobject         "access plus 1 month"
+    ExpiresByType font/eot                              "access plus 1 month"
+
+    # OpenType
+    ExpiresByType font/opentype                         "access plus 1 month"
+
+    # TrueType
+    ExpiresByType application/x-font-ttf                "access plus 1 month"
+
+    # Web Open Font Format (WOFF) 1.0
+    ExpiresByType application/font-woff                 "access plus 1 month"
+    ExpiresByType application/x-font-woff               "access plus 1 month"
+    ExpiresByType font/woff                             "access plus 1 month"
+
+    # Web Open Font Format (WOFF) 2.0
+    ExpiresByType application/font-woff2                "access plus 1 month"
+
+  # Other
+    ExpiresByType text/x-cross-domain-policy            "access plus 1 week"
+
+</IfModule>
+### End Wigum Htaccess ###
+
+
+# BEGIN W3TC Browser Cache
+<IfModule mod_mime.c>
+    AddType text/css .css
+    AddType text/x-component .htc
+    AddType application/x-javascript .js
+    AddType application/javascript .js2
+    AddType text/javascript .js3
+    AddType text/x-js .js4
+    AddType text/html .html .htm
+    AddType text/richtext .rtf .rtx
+    AddType image/svg+xml .svg
+    AddType text/plain .txt
+    AddType text/xsd .xsd
+    AddType text/xsl .xsl
+    AddType text/xml .xml
+    AddType video/asf .asf .asx .wax .wmv .wmx
+    AddType video/avi .avi
+    AddType image/bmp .bmp
+    AddType application/java .class
+    AddType video/divx .divx
+    AddType application/msword .doc .docx
+    AddType application/vnd.ms-fontobject .eot
+    AddType application/x-msdownload .exe
+    AddType image/gif .gif
+    AddType application/x-gzip .gz .gzip
+    AddType image/x-icon .ico
+    AddType image/jpeg .jpg .jpeg .jpe
+    AddType image/webp .webp
+    AddType application/json .json
+    AddType application/vnd.ms-access .mdb
+    AddType audio/midi .mid .midi
+    AddType video/quicktime .mov .qt
+    AddType audio/mpeg .mp3 .m4a
+    AddType video/mp4 .mp4 .m4v
+    AddType video/mpeg .mpeg .mpg .mpe
+    AddType application/vnd.ms-project .mpp
+    AddType application/x-font-otf .otf
+    AddType application/vnd.ms-opentype ._otf
+    AddType application/vnd.oasis.opendocument.database .odb
+    AddType application/vnd.oasis.opendocument.chart .odc
+    AddType application/vnd.oasis.opendocument.formula .odf
+    AddType application/vnd.oasis.opendocument.graphics .odg
+    AddType application/vnd.oasis.opendocument.presentation .odp
+    AddType application/vnd.oasis.opendocument.spreadsheet .ods
+    AddType application/vnd.oasis.opendocument.text .odt
+    AddType audio/ogg .ogg
+    AddType application/pdf .pdf
+    AddType image/png .png
+    AddType application/vnd.ms-powerpoint .pot .pps .ppt .pptx
+    AddType audio/x-realaudio .ra .ram
+    AddType image/svg+xml .svg .svgz
+    AddType application/x-shockwave-flash .swf
+    AddType application/x-tar .tar
+    AddType image/tiff .tif .tiff
+    AddType application/x-font-ttf .ttf .ttc
+    AddType application/vnd.ms-opentype ._ttf
+    AddType audio/wav .wav
+    AddType audio/wma .wma
+    AddType application/vnd.ms-write .wri
+    AddType application/font-woff .woff
+    AddType application/font-woff2 .woff2
+    AddType application/vnd.ms-excel .xla .xls .xlsx .xlt .xlw
+    AddType application/zip .zip
+</IfModule>
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css A31536000
+    ExpiresByType text/x-component A31536000
+    ExpiresByType application/x-javascript A31536000
+    ExpiresByType application/javascript A31536000
+    ExpiresByType text/javascript A31536000
+    ExpiresByType text/x-js A31536000
+    ExpiresByType text/html A3600
+    ExpiresByType text/richtext A3600
+    ExpiresByType image/svg+xml A3600
+    ExpiresByType text/plain A3600
+    ExpiresByType text/xsd A3600
+    ExpiresByType text/xsl A3600
+    ExpiresByType text/xml A3600
+    ExpiresByType video/asf A31536000
+    ExpiresByType video/avi A31536000
+    ExpiresByType image/bmp A31536000
+    ExpiresByType application/java A31536000
+    ExpiresByType video/divx A31536000
+    ExpiresByType application/msword A31536000
+    ExpiresByType application/vnd.ms-fontobject A31536000
+    ExpiresByType application/x-msdownload A31536000
+    ExpiresByType image/gif A31536000
+    ExpiresByType application/x-gzip A31536000
+    ExpiresByType image/x-icon A31536000
+    ExpiresByType image/jpeg A31536000
+    ExpiresByType image/webp A31536000
+    ExpiresByType application/json A31536000
+    ExpiresByType application/vnd.ms-access A31536000
+    ExpiresByType audio/midi A31536000
+    ExpiresByType video/quicktime A31536000
+    ExpiresByType audio/mpeg A31536000
+    ExpiresByType video/mp4 A31536000
+    ExpiresByType video/mpeg A31536000
+    ExpiresByType application/vnd.ms-project A31536000
+    ExpiresByType application/x-font-otf A31536000
+    ExpiresByType application/vnd.ms-opentype A31536000
+    ExpiresByType application/vnd.oasis.opendocument.database A31536000
+    ExpiresByType application/vnd.oasis.opendocument.chart A31536000
+    ExpiresByType application/vnd.oasis.opendocument.formula A31536000
+    ExpiresByType application/vnd.oasis.opendocument.graphics A31536000
+    ExpiresByType application/vnd.oasis.opendocument.presentation A31536000
+    ExpiresByType application/vnd.oasis.opendocument.spreadsheet A31536000
+    ExpiresByType application/vnd.oasis.opendocument.text A31536000
+    ExpiresByType audio/ogg A31536000
+    ExpiresByType application/pdf A31536000
+    ExpiresByType image/png A31536000
+    ExpiresByType application/vnd.ms-powerpoint A31536000
+    ExpiresByType audio/x-realaudio A31536000
+    ExpiresByType image/svg+xml A31536000
+    ExpiresByType application/x-shockwave-flash A31536000
+    ExpiresByType application/x-tar A31536000
+    ExpiresByType image/tiff A31536000
+    ExpiresByType application/x-font-ttf A31536000
+    ExpiresByType application/vnd.ms-opentype A31536000
+    ExpiresByType audio/wav A31536000
+    ExpiresByType audio/wma A31536000
+    ExpiresByType application/vnd.ms-write A31536000
+    ExpiresByType application/font-woff A31536000
+    ExpiresByType application/font-woff2 A31536000
+    ExpiresByType application/vnd.ms-excel A31536000
+    ExpiresByType application/zip A31536000
+</IfModule>
+<IfModule mod_deflate.c>
+    <IfModule mod_filter.c>
+        AddOutputFilterByType DEFLATE text/css text/x-component application/x-javascript application/javascript text/javascript text/x-js text/html text/richtext image/svg+xml text/plain text/xsd text/xsl text/xml image/bmp application/java application/msword application/vnd.ms-fontobject application/x-msdownload image/x-icon image/webp application/json application/vnd.ms-access application/vnd.ms-project application/x-font-otf application/vnd.ms-opentype application/vnd.oasis.opendocument.database application/vnd.oasis.opendocument.chart application/vnd.oasis.opendocument.formula application/vnd.oasis.opendocument.graphics application/vnd.oasis.opendocument.presentation application/vnd.oasis.opendocument.spreadsheet application/vnd.oasis.opendocument.text audio/ogg application/pdf application/vnd.ms-powerpoint image/svg+xml application/x-shockwave-flash image/tiff application/x-font-ttf application/vnd.ms-opentype audio/wav application/vnd.ms-write application/font-woff application/font-woff2 application/vnd.ms-excel
+    <IfModule mod_mime.c>
+        # DEFLATE by extension
+        AddOutputFilter DEFLATE js css htm html xml
+    </IfModule>
+    </IfModule>
+</IfModule>
+<FilesMatch "\.(css|htc|less|js|js2|js3|js4|CSS|HTC|LESS|JS|JS2|JS3|JS4)$">
+    <IfModule mod_headers.c>
+        Header set Pragma "public"
+        Header append Cache-Control "public"
+         Header set X-Powered-By "W3 Total Cache/0.9.5.4"
+    </IfModule>
+</FilesMatch>
+<FilesMatch "\.(html|htm|rtf|rtx|svg|txt|xsd|xsl|xml|HTML|HTM|RTF|RTX|SVG|TXT|XSD|XSL|XML)$">
+    <IfModule mod_headers.c>
+        Header append Vary User-Agent env=!dont-vary
+        Header set Pragma "public"
+        Header append Cache-Control "public"
+         Header set X-Powered-By "W3 Total Cache/0.9.5.4"
+    </IfModule>
+</FilesMatch>
+<FilesMatch "\.(asf|asx|wax|wmv|wmx|avi|bmp|class|divx|doc|docx|eot|exe|gif|gz|gzip|ico|jpg|jpeg|jpe|webp|json|mdb|mid|midi|mov|qt|mp3|m4a|mp4|m4v|mpeg|mpg|mpe|mpp|otf|_otf|odb|odc|odf|odg|odp|ods|odt|ogg|pdf|png|pot|pps|ppt|pptx|ra|ram|svg|svgz|swf|tar|tif|tiff|ttf|ttc|_ttf|wav|wma|wri|woff|woff2|xla|xls|xlsx|xlt|xlw|zip|ASF|ASX|WAX|WMV|WMX|AVI|BMP|CLASS|DIVX|DOC|DOCX|EOT|EXE|GIF|GZ|GZIP|ICO|JPG|JPEG|JPE|WEBP|JSON|MDB|MID|MIDI|MOV|QT|MP3|M4A|MP4|M4V|MPEG|MPG|MPE|MPP|OTF|_OTF|ODB|ODC|ODF|ODG|ODP|ODS|ODT|OGG|PDF|PNG|POT|PPS|PPT|PPTX|RA|RAM|SVG|SVGZ|SWF|TAR|TIF|TIFF|TTF|TTC|_TTF|WAV|WMA|WRI|WOFF|WOFF2|XLA|XLS|XLSX|XLT|XLW|ZIP)$">
+    <IfModule mod_headers.c>
+        Header set Pragma "public"
+        Header append Cache-Control "public"
+         Header set X-Powered-By "W3 Total Cache/0.9.5.4"
+    </IfModule>
+</FilesMatch>
+<FilesMatch "\.(bmp|class|doc|docx|eot|exe|ico|webp|json|mdb|mpp|otf|_otf|odb|odc|odf|odg|odp|ods|odt|ogg|pdf|pot|pps|ppt|pptx|svg|svgz|swf|tif|tiff|ttf|ttc|_ttf|wav|wri|woff|woff2|xla|xls|xlsx|xlt|xlw|BMP|CLASS|DOC|DOCX|EOT|EXE|ICO|WEBP|JSON|MDB|MPP|OTF|_OTF|ODB|ODC|ODF|ODG|ODP|ODS|ODT|OGG|PDF|POT|PPS|PPT|PPTX|SVG|SVGZ|SWF|TIF|TIFF|TTF|TTC|_TTF|WAV|WRI|WOFF|WOFF2|XLA|XLS|XLSX|XLT|XLW)$">
+    <IfModule mod_headers.c>
+         Header unset Last-Modified
+    </IfModule>
+</FilesMatch>
+# END W3TC Browser Cache
+# BEGIN W3TC Page Cache core
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    RewriteCond %{HTTPS} =on
+    RewriteRule .* - [E=W3TC_SSL:_ssl]
+    RewriteCond %{SERVER_PORT} =443
+    RewriteRule .* - [E=W3TC_SSL:_ssl]
+    RewriteCond %{HTTP:Accept-Encoding} gzip
+    RewriteRule .* - [E=W3TC_ENC:_gzip]
+    RewriteCond %{HTTP_COOKIE} w3tc_preview [NC]
+    RewriteRule .* - [E=W3TC_PREVIEW:_preview]
+    RewriteCond %{REQUEST_METHOD} !=POST
+    RewriteCond %{QUERY_STRING} =""
+    RewriteCond %{REQUEST_URI} \/$
+    RewriteCond %{HTTP_COOKIE} !(comment_author|wp\-postpass|w3tc_logged_out|wordpress_logged_in|wptouch_switch_toggle) [NC]
+    RewriteCond "%{DOCUMENT_ROOT}/wp-content/cache/page_enhanced/%{HTTP_HOST}/%{REQUEST_URI}/_index%{ENV:W3TC_SSL}%{ENV:W3TC_PREVIEW}.html%{ENV:W3TC_ENC}" -f
+    RewriteRule .* "/wp-content/cache/page_enhanced/%{HTTP_HOST}/%{REQUEST_URI}/_index%{ENV:W3TC_SSL}%{ENV:W3TC_PREVIEW}.html%{ENV:W3TC_ENC}" [L]
+</IfModule>
+# END W3TC Page Cache core
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+redirect 301 /commercial-door-installation-repair-service/phoenix-az /installation-instruction-guides
+redirect 301 /arizona-commercial-door-installation-repair /
+redirect 301 /commercial-door-installation-repair  /
+redirect 301 /fire-rated-doors /commercial-hollow-metal-doors/fire-rated-metal-door
+redirect 301 /fire-rated-steel-doors /commercial-hollow-metal-doors/fire-rated-metal-door
+redirect 301 /architectural-wood-doors /commercial-wood-doors
+redirect 301 /wood-door-veneers-and-cuts /commercial-wood-doors
+redirect 301 /veneer_cuts.html /commercial-wood-doors
+redirect 301 /veneer-and-cuts /commercial-wood-doors
+redirect 301 /wood-fire-doors /commercial-wood-fire-rated-doors
+redirect 301 /hinges /door-hardware/hinges
+redirect 301 /commercial-door-hinges-pivots /door-hardware/hinges
+redirect 301 /locks /door-hardware/locks
+redirect 301 /exit-devices-panic-bars /door-hardware/exit-devices
+redirect 301 /exit-devices /door-hardware/exit-devices
+redirect 301 /door-thresholds-weatherstrip-sweeps /door-hardware/threshold-weatherstrip-seals
+redirect 301 /thresholds-and-weatherstripping /door-hardware/threshold-weatherstrip-seals
+redirect 301 /push-pull-protection-plates /door-hardware/push-pull-protection-plates
+redirect 301 /door-closers /door-hardware/door-closers
+redirect 301 /commercial-door-locks /door-hardware/locks
+redirect 301 /miscellaneous-door-hardware /door-hardware/miscellaneous-hardware
+redirect 301 /door-stops-and-holders /door-hardware/door-stops-holders
+redirect 301 /architectural-door-hardware /door-hardware
+redirect 301 /survey /
+redirect 301 /locksmith-services /
+redirect 301 /FMDOOR.pdf /Commercial-Replacement-Door-Worksheet.pdf
+redirect 301 /FMFRAME.pdf /Hollow-Metal-Frame-Replacement-Worksheet.pdf
+redirect 301 /services /commercial-door-installation-repair-service/phoenix-az
+redirect 301 /blog/same-day-steel-door-replacement-in-phoenix /
+redirect 301 /blog/phoenix-zoo-steel-door-replacement /
+redirect 301 /blog/mesa-metal-door-replacement /
+redirect 301 /blog/phoenix-hollow-metal-door-repair /
+redirect 301 /blog/page/5 /blog
+redirect 301 /blog/eliason-door-installation /
+redirect 301 /blog/hollow-metal-drywall-installation /
+redirect 301 /blog/phoenix-double-door-replacement /
+redirect 301 /blog/masonry-opening-frame-door-installation /
+redirect 301 /location /locations/phoenix-az
+redirect 301 /blueprint-takeoffs /
+redirect 301 /hollow-metal-door-types /
+redirect 301 /phoenix-hollow-metal-door-repair /
+redirect 301 /sliding-door-hardware /
+redirect 301 /door /
+redirect 301 /fire /commercial-hollow-metal-doors/fire-rated-metal-door
+redirect 301 /fire-rated /commercial-hollow-metal-doors/fire-rated-metal-door
+redirect 301 /news /
+redirect 301 /aluminum-frames /
+redirect 301 /hollow-metal-frame-profiles /commercial-hollow-metal-door-frames
+redirect 301 /hollow-metal-frame-types /commercial-hollow-metal-door-frames
+redirect 301 /frame_profiles.html /commercial-hollow-metal-door-frames
+redirect 301 /frame_types.html /commercial-hollow-metal-door-frames
+redirect 301 /tag-zoo-doors /
+redirect 301 /search_gcse /
+redirect 301 /arizona-door-installation-photo-gallery /
+redirect 301 /gallery /
+redirect 301 /blog/services /
+redirect 301 /tech-data /help
+redirect 301 /mesa-metal-door-replacement /
+redirect 301 /hollow_metal_frames_doors.html /
+redirect 301 /frame_elevations.html /
+redirect 301 /fire_rated.html /
+redirect 301 /about_us.html /about-trudoor
+redirect 301 /blog/new-phoenix-location /
+redirect 301 /door-installations/page/2 /
+redirect 301 /hollow-metal-frame-anchors /commercial-hollow-metal-door-frames
+redirect 301 /tag/removable-mullion /
+redirect 301 /phoenix-double-door-replacement /
+redirect 301 /masonry-opening-frame-door-installation/ /
+redirect 301 /author/trudoor /
+redirect 301 /author/trudoor/page/5 /
+redirect 301 /blog/thresholds-and-weatherstripping /
+redirect 301 /door-installations/page/4 /
+redirect 301 /commercial-door-pivots /
+redirect 301 /tag/mesa /
+redirect 301 /tag/exit-device /
+redirect 301 /tag/panic-bars /
+redirect 301 /tag/electric-hinge /
+redirect 301 /tag/church-doors /
+redirect 301 /tag/high-traffic-opening/ /
+redirect 301 /tag/flush-bolts /
+redirect 301 /tag/access-door /
+redirect 301 /tag/electromagnetic-door-holders /
+redirect 301 /tag/pre-finished-wood-door /
+redirect 301 /hollow-metal-door-narrow-vision-lite-installation+ /
+redirect 301 /tag/fire-rated-doors /
+redirect 301 /tag/steel-building /
+redirect 301 /door-installations/page/3 /
+redirect 301 /free-estimate /estimate-request
+redirect 301 /category/news/ /
+redirect 301 /category/news/page/4/ /
+redirect 301 /category/door-repair-maintenance /
+redirect 301 /blog/fire-rated-door-maintenance /
+redirect 301 /blog/phoenix-wood-office-door-installation /
+redirect 301 /blog/garage-man-door-installation /
+redirect 301 /blog/steel-double-door-installation /
+redirect 301 /blog/access-door-installation /
+redirect 301 /blog/industrial-steel-door-installation /
+redirect 301 /blog/hollow-metal-door-narrow-vision-lite-installation /
+redirect 301 /blog/mesa-steel-building-door-installation /
+redirect 301 /blog/metal-wood-grain-door-installation /
+redirect 301 /blog/mesa-double-door-installation /
+redirect 301 /blog/phoenix-exit-device-conversion /
+redirect 301 /projects /
+redirect 301 /door-hardware/lite-kits-and-louvers /door-hardware
+redirect 301 /door-hardware/door-signs /door-hardware
+redirect 301 /lite-kit-and-louver-quote-builder /quote-request
+redirect 301 /testzip /
+redirect 301 /test-form-2016-version-2 /
+redirect 301 /commercial-door-photo-gallery /
+redirect 301 /commercial-wood-doors/flush-wood-doors /commercial-wood-doors
+
+# Use PHP54 as default
+AddHandler application/x-httpd-php54 .php
+<IfModule mod_suphp.c>
+suPHP_ConfigPath /home3/buckeye/public_html/php.ini
+</IfModule>
+
+<Files 403.shtml>
+order allow,deny
+allow from all
+</Files>
+
+deny from 146.120.166.0/24
+deny from 46.229.163.0/25
+deny from 46.229.174.122

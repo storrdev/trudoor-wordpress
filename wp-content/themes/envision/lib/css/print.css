@@ -1,0 +1,71 @@
+@media print {
+	 /* insert your style declarations here */
+
+	  a[href]:after {
+
+    content: "";
+
+  }
+	#main-container, #container, #page-content, #the-content
+{
+width: 100%; margin: 0; padding:0; float: none;
+}
+	body {
+		background: #fff;
+		color: #333;
+		font-size: 8pt; 
+		margin: 0px!important;
+}
+    h1, h2, h3, h4, h5, h6, code, pre {
+		color: #333;
+		text-transform: none;
+}
+	h1 {
+		font-size: 11pt;
+		margin-top: 1em;
+}
+	h2 {
+		font-size: 10pt; 
+}
+	h3 {
+		font-size: 9pt; 
+}
+	h4, h5, h6 {
+		font-size: 8pt;
+}
+	code, pre {
+		font-size: 8pt; 
+		background-color: transparent; 
+}
+	blockquote {
+		background-image: none; 
+}
+	a:link, a:visited {
+		text-decoration: underline;
+		color: #000;
+}
+    #titlebar-text {
+    max-width: 100%;
+    text-align:center;
+}
+
+	.hidden-phone, html .btn, .ui--tabs-header, nav#navigation, #top-bar-widgets, #header-navigation, #naviagtion, #titlebar-breadcrumb, #section-npxm8, #footer-widgets, #footer-navigation, .NoPrint, p.CodeAlert, #SMLinks, #SearchForm, .ui--custom-menu-bar, .ui--widget-title {
+		display: none;
+	}
+[class*="span"] {
+    float: none;
+    width:100%;
+}
+#header-container, #top-bar {
+position: block;
+    text-align:center;
+	width:100%;
+}
+#footer-bottom #footer-texts {
+    max-width: 100%;
+}
+header #logo {
+	height:100px;
+}
+
+}
